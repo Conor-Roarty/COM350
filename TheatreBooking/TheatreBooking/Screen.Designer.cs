@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Screen));
             this.label20 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -35,31 +36,34 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Sitka Small", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label20.Location = new System.Drawing.Point(346, 181);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(368, 31);
+            this.label20.Size = new System.Drawing.Size(331, 24);
             this.label20.TabIndex = 24;
             this.label20.Text = "This Screen Is Bleak, Unlucky m9";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(12, 330);
+            this.label1.Location = new System.Drawing.Point(154, 334);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1088, 24);
+            this.label1.Size = new System.Drawing.Size(699, 48);
             this.label1.TabIndex = 25;
-            this.label1.Text = "Just text here saying what the screen has like number of seats, wheelchair access" +
-    " and all that and they can just return, no interaction";
+            this.label1.Text = "Just text here saying what the screen has like number of seats, \r\nwheelchair acce" +
+    "ss and all that and they can just return, no interaction";
             // 
             // Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1099, 619);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label20);
