@@ -57,17 +57,17 @@
     <Compile Include="Cancel.Designer.cs">
       <DependentUpon>Cancel.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConfirmationPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConfirmationPage.Designer.cs">
-      <DependentUpon>ConfirmationPage.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConfirmedBooking.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ConfirmedBooking.Designer.cs">
       <DependentUpon>ConfirmedBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Details.Designer.cs">
+      <DependentUpon>Details.cs</DependentUpon>
     </Compile>
     <Compile Include="Events.cs">
       <SubType>Form</SubType>
@@ -113,11 +113,11 @@
     <EmbeddedResource Include="Cancel.resx">
       <DependentUpon>Cancel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConfirmationPage.resx">
-      <DependentUpon>ConfirmationPage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ConfirmedBooking.resx">
       <DependentUpon>ConfirmedBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Details.resx">
+      <DependentUpon>Details.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Events.resx">
       <DependentUpon>Events.cs</DependentUpon>

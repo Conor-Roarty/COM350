@@ -34,20 +34,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnEventsHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnBookingReturn
             // 
             this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
-            this.btnBookingReturn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
             this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
             this.btnBookingReturn.Name = "btnBookingReturn";
-            this.btnBookingReturn.Padding = new System.Windows.Forms.Padding(500, 0, 500, 0);
-            this.btnBookingReturn.Size = new System.Drawing.Size(1264, 90);
+            this.btnBookingReturn.Size = new System.Drawing.Size(1150, 90);
             this.btnBookingReturn.TabIndex = 31;
             this.btnBookingReturn.Text = "Home";
             this.btnBookingReturn.UseVisualStyleBackColor = true;
@@ -103,6 +102,17 @@
             this.label3.Text = resources.GetString("label3.Text");
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btnEventsHelp
+            // 
+            this.btnEventsHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEventsHelp.BackgroundImage")));
+            this.btnEventsHelp.FlatAppearance.BorderSize = 0;
+            this.btnEventsHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEventsHelp.Location = new System.Drawing.Point(1150, 592);
+            this.btnEventsHelp.Name = "btnEventsHelp";
+            this.btnEventsHelp.Size = new System.Drawing.Size(114, 90);
+            this.btnEventsHelp.TabIndex = 36;
+            this.btnEventsHelp.UseVisualStyleBackColor = true;
+            // 
             // Events
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -110,6 +120,7 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btnEventsHelp);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -129,5 +140,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnEventsHelp;
     }
 }

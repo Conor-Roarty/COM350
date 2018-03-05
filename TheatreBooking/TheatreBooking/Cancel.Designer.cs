@@ -59,6 +59,7 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnBookingReturn = new System.Windows.Forms.Button();
+            this.btnCancelHelp = new System.Windows.Forms.Button();
             label8 = new System.Windows.Forms.Label();
             lblSpecial = new System.Windows.Forms.Label();
             label10 = new System.Windows.Forms.Label();
@@ -140,7 +141,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(420, 460);
+            this.button1.Location = new System.Drawing.Point(430, 460);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 74);
             this.button1.TabIndex = 27;
@@ -242,7 +243,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(420, 460);
+            this.button3.Location = new System.Drawing.Point(430, 460);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(162, 74);
             this.button3.TabIndex = 43;
@@ -416,19 +417,28 @@
             // btnBookingReturn
             // 
             this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
-            this.btnBookingReturn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
             this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
             this.btnBookingReturn.Name = "btnBookingReturn";
-            this.btnBookingReturn.Padding = new System.Windows.Forms.Padding(500, 0, 500, 0);
-            this.btnBookingReturn.Size = new System.Drawing.Size(1264, 90);
+            this.btnBookingReturn.Size = new System.Drawing.Size(1150, 90);
             this.btnBookingReturn.TabIndex = 30;
             this.btnBookingReturn.Text = "Home";
             this.btnBookingReturn.UseVisualStyleBackColor = true;
             this.btnBookingReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
+            // 
+            // btnCancelHelp
+            // 
+            this.btnCancelHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelHelp.BackgroundImage")));
+            this.btnCancelHelp.FlatAppearance.BorderSize = 0;
+            this.btnCancelHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelHelp.Location = new System.Drawing.Point(1150, 592);
+            this.btnCancelHelp.Name = "btnCancelHelp";
+            this.btnCancelHelp.Size = new System.Drawing.Size(114, 90);
+            this.btnCancelHelp.TabIndex = 31;
+            this.btnCancelHelp.UseVisualStyleBackColor = true;
             // 
             // Cancel
             // 
@@ -437,6 +447,7 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btnCancelHelp);
             this.Controls.Add(this.btnBookingReturn);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbEnterBookingDets);
@@ -481,5 +492,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btnBookingReturn;
+        private System.Windows.Forms.Button btnCancelHelp;
     }
 }

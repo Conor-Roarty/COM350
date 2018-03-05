@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TheatreBooking
 {
-    public partial class ConfirmationPage : Form
+    public partial class Details : Form
     {
-        public ConfirmationPage()
+        public Details()
         {
             InitializeComponent();
         }

@@ -48,6 +48,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.btnBookingReturn = new System.Windows.Forms.Button();
+            this.btnCardHelp = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -241,14 +242,24 @@
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
-            this.btnBookingReturn.Location = new System.Drawing.Point(0, 655);
+            this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
             this.btnBookingReturn.Name = "btnBookingReturn";
-            this.btnBookingReturn.Padding = new System.Windows.Forms.Padding(500, 0, 500, 0);
-            this.btnBookingReturn.Size = new System.Drawing.Size(777, 90);
+            this.btnBookingReturn.Size = new System.Drawing.Size(1150, 90);
             this.btnBookingReturn.TabIndex = 32;
             this.btnBookingReturn.Text = "Home";
-            this.btnBookingReturn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnBookingReturn.UseVisualStyleBackColor = false;
+            this.btnBookingReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
+            // 
+            // btnCardHelp
+            // 
+            this.btnCardHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCardHelp.BackgroundImage")));
+            this.btnCardHelp.FlatAppearance.BorderSize = 0;
+            this.btnCardHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCardHelp.Location = new System.Drawing.Point(1150, 592);
+            this.btnCardHelp.Name = "btnCardHelp";
+            this.btnCardHelp.Size = new System.Drawing.Size(114, 90);
+            this.btnCardHelp.TabIndex = 33;
+            this.btnCardHelp.UseVisualStyleBackColor = true;
             // 
             // Payment
             // 
@@ -256,7 +267,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(777, 743);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btnCardHelp);
             this.Controls.Add(this.btnBookingReturn);
             this.Controls.Add(this.groupBox1);
             this.Name = "Payment";
@@ -291,5 +303,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button btnBookingReturn;
+        private System.Windows.Forms.Button btnCardHelp;
     }
 }
