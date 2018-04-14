@@ -28,14 +28,14 @@ namespace TheatreBooking
         {
             TheatreBooking theatre = new TheatreBooking();
             theatre.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnProceed_Click(object sender, EventArgs e)
         {
             Payment pay = new Payment();
             pay.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

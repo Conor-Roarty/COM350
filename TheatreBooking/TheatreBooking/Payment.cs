@@ -26,7 +26,7 @@ namespace TheatreBooking
         {
             TheatreBooking theatre = new TheatreBooking();
             theatre.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void radBtnCard_CheckedChanged(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace TheatreBooking
         {
             Booking back = new Booking();
             back.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

@@ -22,7 +22,7 @@ namespace TheatreBooking
         {
             TheatreBooking theatre = new TheatreBooking();
             theatre.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnBookingHelp_Click(object sender, EventArgs e)

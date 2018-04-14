@@ -37,7 +37,7 @@ namespace TheatreBooking
         {
             TheatreBooking theatre = new TheatreBooking();
             theatre.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnDetailsHelp_Click(object sender, EventArgs e)
