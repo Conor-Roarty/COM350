@@ -15,7 +15,6 @@ namespace TheatreBooking
         public TheatreBooking()
         {
             InitializeComponent();
-            
         }
 
         private void TheatreBooking_Load(object sender, EventArgs e)
@@ -26,35 +25,29 @@ namespace TheatreBooking
         private void btnBooking_Click(object sender, EventArgs e)
         {
             Booking book = new Booking();
-            book.Visible = true;
+            book.Show();
+            this.Hide();
         }
 
         private void btnEvents_Click(object sender, EventArgs e)
         {
             Events ev = new Events();
-            ev.Visible = true;
+            ev.Show();
+            this.Hide();
         }
 
         private void btnListings_Click(object sender, EventArgs e)
         {
-            Listing l = new Listing();
-            l.Visible = true;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            Listing list = new Listing();
+            list.Show();
+            this.Hide();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Cancel c = new Cancel();
-            c.Visible = true;
+            c.Show();
+            this.Hide();
         }
     }
 }

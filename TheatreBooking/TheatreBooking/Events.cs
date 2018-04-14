@@ -19,7 +19,9 @@ namespace TheatreBooking
 
         private void btnBookingReturn_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+            TheatreBooking theatre = new TheatreBooking();
+            theatre.Show();
+            this.Hide();
         }
     }
 }

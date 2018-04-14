@@ -44,19 +44,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.gbEnterBookingDets = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.rbNoWheelchair = new System.Windows.Forms.RadioButton();
+            this.grpBoxEnterBooking = new System.Windows.Forms.GroupBox();
+            this.radBtnYesWheelchair = new System.Windows.Forms.RadioButton();
+            this.radBtnNoWheelchair = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.lblDisabilityBooking = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtOtherReqs = new System.Windows.Forms.TextBox();
             this.btnBookingHelp = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grpBoxConfirmation = new System.Windows.Forms.GroupBox();
             this.lblNumber = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnProceed = new System.Windows.Forms.Button();
+            this.lnkLblScreenDetails = new System.Windows.Forms.LinkLabel();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -64,8 +64,8 @@
             this.label22 = new System.Windows.Forms.Label();
             lblSpecial = new System.Windows.Forms.Label();
             label8 = new System.Windows.Forms.Label();
-            this.gbEnterBookingDets.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.grpBoxEnterBooking.SuspendLayout();
+            this.grpBoxConfirmation.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -242,60 +242,60 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "*";
             // 
-            // gbEnterBookingDets
+            // grpBoxEnterBooking
             // 
-            this.gbEnterBookingDets.BackColor = System.Drawing.Color.Transparent;
-            this.gbEnterBookingDets.Controls.Add(label8);
-            this.gbEnterBookingDets.Controls.Add(this.radioButton1);
-            this.gbEnterBookingDets.Controls.Add(this.rbNoWheelchair);
-            this.gbEnterBookingDets.Controls.Add(this.label2);
-            this.gbEnterBookingDets.Controls.Add(this.lblDisabilityBooking);
-            this.gbEnterBookingDets.Controls.Add(lblSpecial);
-            this.gbEnterBookingDets.Controls.Add(this.textBox1);
-            this.gbEnterBookingDets.Controls.Add(this.lblNoOdTicks);
-            this.gbEnterBookingDets.Controls.Add(this.label5);
-            this.gbEnterBookingDets.Controls.Add(this.cmbMovieBook);
-            this.gbEnterBookingDets.Controls.Add(this.label4);
-            this.gbEnterBookingDets.Controls.Add(this.txtNoOfTicketsBooking);
-            this.gbEnterBookingDets.Controls.Add(this.label3);
-            this.gbEnterBookingDets.Controls.Add(this.lblBookMovie);
-            this.gbEnterBookingDets.Controls.Add(this.label1);
-            this.gbEnterBookingDets.Controls.Add(this.lblBookingDate);
-            this.gbEnterBookingDets.Controls.Add(this.dtpBookingDate);
-            this.gbEnterBookingDets.Controls.Add(this.cmbBookingTime);
-            this.gbEnterBookingDets.Controls.Add(this.lblViewingTime);
-            this.gbEnterBookingDets.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbEnterBookingDets.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.gbEnterBookingDets.Location = new System.Drawing.Point(12, 12);
-            this.gbEnterBookingDets.Name = "gbEnterBookingDets";
-            this.gbEnterBookingDets.Size = new System.Drawing.Size(610, 550);
-            this.gbEnterBookingDets.TabIndex = 15;
-            this.gbEnterBookingDets.TabStop = false;
-            this.gbEnterBookingDets.Text = "Booking Details";
+            this.grpBoxEnterBooking.BackColor = System.Drawing.Color.Transparent;
+            this.grpBoxEnterBooking.Controls.Add(label8);
+            this.grpBoxEnterBooking.Controls.Add(this.radBtnYesWheelchair);
+            this.grpBoxEnterBooking.Controls.Add(this.radBtnNoWheelchair);
+            this.grpBoxEnterBooking.Controls.Add(this.label2);
+            this.grpBoxEnterBooking.Controls.Add(this.lblDisabilityBooking);
+            this.grpBoxEnterBooking.Controls.Add(lblSpecial);
+            this.grpBoxEnterBooking.Controls.Add(this.txtOtherReqs);
+            this.grpBoxEnterBooking.Controls.Add(this.lblNoOdTicks);
+            this.grpBoxEnterBooking.Controls.Add(this.label5);
+            this.grpBoxEnterBooking.Controls.Add(this.cmbMovieBook);
+            this.grpBoxEnterBooking.Controls.Add(this.label4);
+            this.grpBoxEnterBooking.Controls.Add(this.txtNoOfTicketsBooking);
+            this.grpBoxEnterBooking.Controls.Add(this.label3);
+            this.grpBoxEnterBooking.Controls.Add(this.lblBookMovie);
+            this.grpBoxEnterBooking.Controls.Add(this.label1);
+            this.grpBoxEnterBooking.Controls.Add(this.lblBookingDate);
+            this.grpBoxEnterBooking.Controls.Add(this.dtpBookingDate);
+            this.grpBoxEnterBooking.Controls.Add(this.cmbBookingTime);
+            this.grpBoxEnterBooking.Controls.Add(this.lblViewingTime);
+            this.grpBoxEnterBooking.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpBoxEnterBooking.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.grpBoxEnterBooking.Location = new System.Drawing.Point(12, 12);
+            this.grpBoxEnterBooking.Name = "grpBoxEnterBooking";
+            this.grpBoxEnterBooking.Size = new System.Drawing.Size(610, 550);
+            this.grpBoxEnterBooking.TabIndex = 15;
+            this.grpBoxEnterBooking.TabStop = false;
+            this.grpBoxEnterBooking.Text = "Booking Details";
             // 
-            // radioButton1
+            // radBtnYesWheelchair
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Eras Demi ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(331, 174);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(68, 32);
-            this.radioButton1.TabIndex = 21;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Yes";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radBtnYesWheelchair.AutoSize = true;
+            this.radBtnYesWheelchair.Font = new System.Drawing.Font("Eras Demi ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radBtnYesWheelchair.Location = new System.Drawing.Point(331, 174);
+            this.radBtnYesWheelchair.Name = "radBtnYesWheelchair";
+            this.radBtnYesWheelchair.Size = new System.Drawing.Size(68, 32);
+            this.radBtnYesWheelchair.TabIndex = 21;
+            this.radBtnYesWheelchair.TabStop = true;
+            this.radBtnYesWheelchair.Text = "Yes";
+            this.radBtnYesWheelchair.UseVisualStyleBackColor = true;
             // 
-            // rbNoWheelchair
+            // radBtnNoWheelchair
             // 
-            this.rbNoWheelchair.AutoSize = true;
-            this.rbNoWheelchair.Font = new System.Drawing.Font("Eras Demi ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbNoWheelchair.Location = new System.Drawing.Point(234, 173);
-            this.rbNoWheelchair.Name = "rbNoWheelchair";
-            this.rbNoWheelchair.Size = new System.Drawing.Size(64, 32);
-            this.rbNoWheelchair.TabIndex = 20;
-            this.rbNoWheelchair.TabStop = true;
-            this.rbNoWheelchair.Text = "No";
-            this.rbNoWheelchair.UseVisualStyleBackColor = true;
+            this.radBtnNoWheelchair.AutoSize = true;
+            this.radBtnNoWheelchair.Font = new System.Drawing.Font("Eras Demi ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radBtnNoWheelchair.Location = new System.Drawing.Point(234, 173);
+            this.radBtnNoWheelchair.Name = "radBtnNoWheelchair";
+            this.radBtnNoWheelchair.Size = new System.Drawing.Size(64, 32);
+            this.radBtnNoWheelchair.TabIndex = 20;
+            this.radBtnNoWheelchair.TabStop = true;
+            this.radBtnNoWheelchair.Text = "No";
+            this.radBtnNoWheelchair.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -319,12 +319,12 @@
             this.lblDisabilityBooking.TabIndex = 18;
             this.lblDisabilityBooking.Text = "Wheelchair \r\nAccess? ";
             // 
-            // textBox1
+            // txtOtherReqs
             // 
-            this.textBox1.Location = new System.Drawing.Point(234, 482);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(330, 39);
-            this.textBox1.TabIndex = 15;
+            this.txtOtherReqs.Location = new System.Drawing.Point(234, 482);
+            this.txtOtherReqs.Name = "txtOtherReqs";
+            this.txtOtherReqs.Size = new System.Drawing.Size(330, 39);
+            this.txtOtherReqs.TabIndex = 15;
             // 
             // btnBookingHelp
             // 
@@ -336,29 +336,28 @@
             this.btnBookingHelp.Size = new System.Drawing.Size(114, 90);
             this.btnBookingHelp.TabIndex = 21;
             this.btnBookingHelp.UseVisualStyleBackColor = true;
-            this.btnBookingHelp.Click += new System.EventHandler(this.button3_Click);
             // 
-            // groupBox2
+            // grpBoxConfirmation
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.lblNumber);
-            this.groupBox2.Controls.Add(this.label26);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.linkLabel1);
-            this.groupBox2.Controls.Add(this.label25);
-            this.groupBox2.Controls.Add(this.label24);
-            this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Controls.Add(this.label23);
-            this.groupBox2.Controls.Add(this.label22);
-            this.groupBox2.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox2.Location = new System.Drawing.Point(640, 12);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(610, 550);
-            this.groupBox2.TabIndex = 25;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Confirmation Details";
+            this.grpBoxConfirmation.BackColor = System.Drawing.Color.Transparent;
+            this.grpBoxConfirmation.Controls.Add(this.lblNumber);
+            this.grpBoxConfirmation.Controls.Add(this.label26);
+            this.grpBoxConfirmation.Controls.Add(this.btnClear);
+            this.grpBoxConfirmation.Controls.Add(this.btnProceed);
+            this.grpBoxConfirmation.Controls.Add(this.lnkLblScreenDetails);
+            this.grpBoxConfirmation.Controls.Add(this.label25);
+            this.grpBoxConfirmation.Controls.Add(this.label24);
+            this.grpBoxConfirmation.Controls.Add(this.pictureBox1);
+            this.grpBoxConfirmation.Controls.Add(this.label23);
+            this.grpBoxConfirmation.Controls.Add(this.label22);
+            this.grpBoxConfirmation.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpBoxConfirmation.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.grpBoxConfirmation.Location = new System.Drawing.Point(640, 12);
+            this.grpBoxConfirmation.Name = "grpBoxConfirmation";
+            this.grpBoxConfirmation.Size = new System.Drawing.Size(610, 550);
+            this.grpBoxConfirmation.TabIndex = 25;
+            this.grpBoxConfirmation.TabStop = false;
+            this.grpBoxConfirmation.Text = "Confirmation Details";
             // 
             // lblNumber
             // 
@@ -380,50 +379,52 @@
             this.label26.Size = new System.Drawing.Size(412, 48);
             this.label26.TabIndex = 27;
             this.label26.Text = "Further Details Such As Booking No will \r\nappear on ticket/confirmation email";
-            this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
-            // button1
+            // btnClear
             // 
-            this.button1.BackColor = System.Drawing.Color.Firebrick;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(430, 460);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 74);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Cancel";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnClear.BackColor = System.Drawing.Color.Firebrick;
+            this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
+            this.btnClear.FlatAppearance.BorderSize = 0;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.White;
+            this.btnClear.Location = new System.Drawing.Point(430, 460);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(162, 74);
+            this.btnClear.TabIndex = 25;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // button2
+            // btnProceed
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(20, 460);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 74);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "Proceeed To Payment";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnProceed.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProceed.BackgroundImage")));
+            this.btnProceed.FlatAppearance.BorderSize = 0;
+            this.btnProceed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProceed.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProceed.ForeColor = System.Drawing.Color.White;
+            this.btnProceed.Location = new System.Drawing.Point(20, 460);
+            this.btnProceed.Name = "btnProceed";
+            this.btnProceed.Size = new System.Drawing.Size(162, 74);
+            this.btnProceed.TabIndex = 24;
+            this.btnProceed.Text = "Proceeed To Payment";
+            this.btnProceed.UseVisualStyleBackColor = true;
+            this.btnProceed.Click += new System.EventHandler(this.btnProceed_Click);
             // 
-            // linkLabel1
+            // lnkLblScreenDetails
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Enabled = false;
-            this.linkLabel1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel1.Location = new System.Drawing.Point(325, 186);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(150, 24);
-            this.linkLabel1.TabIndex = 10;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Screen Details";
-            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Cyan;
+            this.lnkLblScreenDetails.AutoSize = true;
+            this.lnkLblScreenDetails.Enabled = false;
+            this.lnkLblScreenDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLblScreenDetails.LinkColor = System.Drawing.Color.Cyan;
+            this.lnkLblScreenDetails.Location = new System.Drawing.Point(325, 186);
+            this.lnkLblScreenDetails.Name = "lnkLblScreenDetails";
+            this.lnkLblScreenDetails.Size = new System.Drawing.Size(150, 24);
+            this.lnkLblScreenDetails.TabIndex = 10;
+            this.lnkLblScreenDetails.TabStop = true;
+            this.lnkLblScreenDetails.Text = "Screen Details";
+            this.lnkLblScreenDetails.VisitedLinkColor = System.Drawing.Color.Cyan;
+            this.lnkLblScreenDetails.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkLblScreenDetails_LinkClicked);
             // 
             // label25
             // 
@@ -485,21 +486,21 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.grpBoxConfirmation);
             this.Controls.Add(this.btnBookingHelp);
-            this.Controls.Add(this.gbEnterBookingDets);
+            this.Controls.Add(this.grpBoxEnterBooking);
             this.Controls.Add(this.btnBookingReturn);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1280, 720);
             this.Name = "Booking";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Booking";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Booking_Load);
-            this.gbEnterBookingDets.ResumeLayout(false);
-            this.gbEnterBookingDets.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.grpBoxEnterBooking.ResumeLayout(false);
+            this.grpBoxEnterBooking.PerformLayout();
+            this.grpBoxConfirmation.ResumeLayout(false);
+            this.grpBoxConfirmation.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -520,19 +521,19 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.GroupBox gbEnterBookingDets;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton rbNoWheelchair;
+        private System.Windows.Forms.GroupBox grpBoxEnterBooking;
+        private System.Windows.Forms.RadioButton radBtnYesWheelchair;
+        private System.Windows.Forms.RadioButton radBtnNoWheelchair;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblDisabilityBooking;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtOtherReqs;
         private System.Windows.Forms.Button btnBookingHelp;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grpBoxConfirmation;
         private System.Windows.Forms.Label lblNumber;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnProceed;
+        private System.Windows.Forms.LinkLabel lnkLblScreenDetails;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.PictureBox pictureBox1;

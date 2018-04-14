@@ -34,31 +34,31 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cancel));
             this.gbEnterBookingDets = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnWrongDetails = new System.Windows.Forms.Button();
+            this.btnCancelBooking = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblNoOdTicks = new System.Windows.Forms.Label();
             this.lblBookMovie = new System.Windows.Forms.Label();
             this.lblBookingDate = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.cmbMovieTitle = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.dtpBookingDate = new System.Windows.Forms.DateTimePicker();
             this.cmbBookingTime = new System.Windows.Forms.ComboBox();
             this.lblViewingTime = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtBookingNo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnBookingReturn = new System.Windows.Forms.Button();
+            this.btnCancelReturn = new System.Windows.Forms.Button();
             this.btnCancelHelp = new System.Windows.Forms.Button();
             label8 = new System.Windows.Forms.Label();
             lblSpecial = new System.Windows.Forms.Label();
@@ -105,8 +105,8 @@
             this.gbEnterBookingDets.BackColor = System.Drawing.Color.Transparent;
             this.gbEnterBookingDets.Controls.Add(label10);
             this.gbEnterBookingDets.Controls.Add(this.label2);
-            this.gbEnterBookingDets.Controls.Add(this.button1);
-            this.gbEnterBookingDets.Controls.Add(this.button2);
+            this.gbEnterBookingDets.Controls.Add(this.btnWrongDetails);
+            this.gbEnterBookingDets.Controls.Add(this.btnCancelBooking);
             this.gbEnterBookingDets.Controls.Add(this.label1);
             this.gbEnterBookingDets.Controls.Add(label8);
             this.gbEnterBookingDets.Controls.Add(lblSpecial);
@@ -133,34 +133,36 @@
             this.label2.TabIndex = 28;
             this.label2.Text = "Your Email";
             // 
-            // button1
+            // btnWrongDetails
             // 
-            this.button1.BackColor = System.Drawing.Color.Firebrick;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(430, 460);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 74);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Wrong Details";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnWrongDetails.BackColor = System.Drawing.Color.Firebrick;
+            this.btnWrongDetails.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWrongDetails.BackgroundImage")));
+            this.btnWrongDetails.FlatAppearance.BorderSize = 0;
+            this.btnWrongDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWrongDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWrongDetails.ForeColor = System.Drawing.Color.White;
+            this.btnWrongDetails.Location = new System.Drawing.Point(430, 460);
+            this.btnWrongDetails.Name = "btnWrongDetails";
+            this.btnWrongDetails.Size = new System.Drawing.Size(162, 74);
+            this.btnWrongDetails.TabIndex = 27;
+            this.btnWrongDetails.Text = "Wrong Details";
+            this.btnWrongDetails.UseVisualStyleBackColor = false;
+            this.btnWrongDetails.Click += new System.EventHandler(this.btnWrongDetails_Click);
             // 
-            // button2
+            // btnCancelBooking
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(20, 460);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 74);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Cancel This Booking";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelBooking.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelBooking.BackgroundImage")));
+            this.btnCancelBooking.FlatAppearance.BorderSize = 0;
+            this.btnCancelBooking.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelBooking.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelBooking.ForeColor = System.Drawing.Color.White;
+            this.btnCancelBooking.Location = new System.Drawing.Point(20, 460);
+            this.btnCancelBooking.Name = "btnCancelBooking";
+            this.btnCancelBooking.Size = new System.Drawing.Size(162, 74);
+            this.btnCancelBooking.TabIndex = 26;
+            this.btnCancelBooking.Text = "Cancel This Booking";
+            this.btnCancelBooking.UseVisualStyleBackColor = true;
+            this.btnCancelBooking.Click += new System.EventHandler(this.btnCancelBooking_Click);
             // 
             // label1
             // 
@@ -209,22 +211,22 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.btnClear);
+            this.groupBox1.Controls.Add(this.btnSearch);
+            this.groupBox1.Controls.Add(this.cmbMovieTitle);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.dtpBookingDate);
             this.groupBox1.Controls.Add(this.cmbBookingTime);
             this.groupBox1.Controls.Add(this.lblViewingTime);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtName);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txtBookingNo);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -235,43 +237,45 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search";
             // 
-            // button3
+            // btnClear
             // 
-            this.button3.BackColor = System.Drawing.Color.Firebrick;
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(430, 460);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(162, 74);
-            this.button3.TabIndex = 43;
-            this.button3.Text = "Clear";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnClear.BackColor = System.Drawing.Color.Firebrick;
+            this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
+            this.btnClear.FlatAppearance.BorderSize = 0;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.White;
+            this.btnClear.Location = new System.Drawing.Point(430, 460);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(162, 74);
+            this.btnClear.TabIndex = 43;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // button4
+            // btnSearch
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(20, 460);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(162, 74);
-            this.button4.TabIndex = 42;
-            this.button4.Text = "Search";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSearch.BackgroundImage")));
+            this.btnSearch.FlatAppearance.BorderSize = 0;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.Color.White;
+            this.btnSearch.Location = new System.Drawing.Point(20, 460);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(162, 74);
+            this.btnSearch.TabIndex = 42;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // comboBox1
+            // cmbMovieTitle
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(221, 299);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(372, 32);
-            this.comboBox1.TabIndex = 40;
+            this.cmbMovieTitle.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMovieTitle.FormattingEnabled = true;
+            this.cmbMovieTitle.Location = new System.Drawing.Point(221, 299);
+            this.cmbMovieTitle.Name = "cmbMovieTitle";
+            this.cmbMovieTitle.Size = new System.Drawing.Size(372, 32);
+            this.cmbMovieTitle.TabIndex = 40;
             // 
             // label11
             // 
@@ -283,7 +287,6 @@
             this.label11.Size = new System.Drawing.Size(120, 24);
             this.label11.TabIndex = 41;
             this.label11.Text = "Movie Title";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label13
             // 
@@ -335,13 +338,13 @@
             this.label9.TabIndex = 35;
             this.label9.Text = "Your Name";
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(221, 203);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(371, 32);
-            this.textBox1.TabIndex = 34;
+            this.txtName.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(221, 203);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(371, 32);
+            this.txtName.TabIndex = 34;
             // 
             // label7
             // 
@@ -354,13 +357,13 @@
             this.label7.TabIndex = 32;
             this.label7.Text = "Your Email";
             // 
-            // textBox2
+            // txtEmail
             // 
-            this.textBox2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(221, 252);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(371, 32);
-            this.textBox2.TabIndex = 31;
+            this.txtEmail.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(221, 252);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(371, 32);
+            this.txtEmail.TabIndex = 31;
             // 
             // label6
             // 
@@ -395,13 +398,13 @@
             this.label4.TabIndex = 26;
             this.label4.Text = "Booking No Can Be Found On Confirmation Page \r\nand/or Email";
             // 
-            // textBox5
+            // txtBookingNo
             // 
-            this.textBox5.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(222, 100);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(372, 32);
-            this.textBox5.TabIndex = 25;
+            this.txtBookingNo.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBookingNo.Location = new System.Drawing.Point(222, 100);
+            this.txtBookingNo.Name = "txtBookingNo";
+            this.txtBookingNo.Size = new System.Drawing.Size(372, 32);
+            this.txtBookingNo.TabIndex = 25;
             // 
             // label3
             // 
@@ -414,20 +417,20 @@
             this.label3.TabIndex = 24;
             this.label3.Text = "Booking No:";
             // 
-            // btnBookingReturn
+            // btnCancelReturn
             // 
-            this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
-            this.btnBookingReturn.FlatAppearance.BorderSize = 0;
-            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
-            this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
-            this.btnBookingReturn.Name = "btnBookingReturn";
-            this.btnBookingReturn.Size = new System.Drawing.Size(1150, 90);
-            this.btnBookingReturn.TabIndex = 30;
-            this.btnBookingReturn.Text = "Home";
-            this.btnBookingReturn.UseVisualStyleBackColor = true;
-            this.btnBookingReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
+            this.btnCancelReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelReturn.BackgroundImage")));
+            this.btnCancelReturn.FlatAppearance.BorderSize = 0;
+            this.btnCancelReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelReturn.ForeColor = System.Drawing.Color.White;
+            this.btnCancelReturn.Location = new System.Drawing.Point(0, 591);
+            this.btnCancelReturn.Name = "btnCancelReturn";
+            this.btnCancelReturn.Size = new System.Drawing.Size(1150, 90);
+            this.btnCancelReturn.TabIndex = 30;
+            this.btnCancelReturn.Text = "Home";
+            this.btnCancelReturn.UseVisualStyleBackColor = true;
+            this.btnCancelReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
             // 
             // btnCancelHelp
             // 
@@ -439,6 +442,7 @@
             this.btnCancelHelp.Size = new System.Drawing.Size(114, 90);
             this.btnCancelHelp.TabIndex = 31;
             this.btnCancelHelp.UseVisualStyleBackColor = true;
+            this.btnCancelHelp.Click += new System.EventHandler(this.btnCancelHelp_Click);
             // 
             // Cancel
             // 
@@ -448,13 +452,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.btnCancelHelp);
-            this.Controls.Add(this.btnBookingReturn);
+            this.Controls.Add(this.btnCancelReturn);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbEnterBookingDets);
             this.Name = "Cancel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cancel";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Cancel_Load);
             this.gbEnterBookingDets.ResumeLayout(false);
             this.gbEnterBookingDets.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -470,28 +473,28 @@
         private System.Windows.Forms.Label lblNoOdTicks;
         private System.Windows.Forms.Label lblBookMovie;
         private System.Windows.Forms.Label lblBookingDate;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnWrongDetails;
+        private System.Windows.Forms.Button btnCancelBooking;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtBookingNo;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.DateTimePicker dtpBookingDate;
         private System.Windows.Forms.ComboBox cmbBookingTime;
         private System.Windows.Forms.Label lblViewingTime;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbMovieTitle;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button btnBookingReturn;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnCancelReturn;
         private System.Windows.Forms.Button btnCancelHelp;
     }
 }

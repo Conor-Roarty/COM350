@@ -29,108 +29,114 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Details));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.grpDetails = new System.Windows.Forms.GroupBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnPayment = new System.Windows.Forms.Button();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.chkSpecialOffers = new System.Windows.Forms.CheckBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtPostCode = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbAddress = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtFullname = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbPhone = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
             this.btnDetailsReturn = new System.Windows.Forms.Button();
             this.btnDetailsHelp = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.grpInformation = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.grpDetails.SuspendLayout();
+            this.grpInformation.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // grpDetails
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(610, 550);
-            this.groupBox1.TabIndex = 21;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Your Details";
+            this.grpDetails.BackColor = System.Drawing.Color.Transparent;
+            this.grpDetails.Controls.Add(this.btnClear);
+            this.grpDetails.Controls.Add(this.btnPayment);
+            this.grpDetails.Controls.Add(this.txtEmail);
+            this.grpDetails.Controls.Add(this.chkSpecialOffers);
+            this.grpDetails.Controls.Add(this.label20);
+            this.grpDetails.Controls.Add(this.label18);
+            this.grpDetails.Controls.Add(this.label6);
+            this.grpDetails.Controls.Add(this.label7);
+            this.grpDetails.Controls.Add(this.txtPostCode);
+            this.grpDetails.Controls.Add(this.label9);
+            this.grpDetails.Controls.Add(this.label10);
+            this.grpDetails.Controls.Add(this.cmbAddress);
+            this.grpDetails.Controls.Add(this.label11);
+            this.grpDetails.Controls.Add(this.txtFullname);
+            this.grpDetails.Controls.Add(this.label12);
+            this.grpDetails.Controls.Add(this.label13);
+            this.grpDetails.Controls.Add(this.label14);
+            this.grpDetails.Controls.Add(this.label15);
+            this.grpDetails.Controls.Add(this.cmbPhone);
+            this.grpDetails.Controls.Add(this.label16);
+            this.grpDetails.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpDetails.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.grpDetails.Location = new System.Drawing.Point(12, 12);
+            this.grpDetails.Name = "grpDetails";
+            this.grpDetails.Size = new System.Drawing.Size(610, 550);
+            this.grpDetails.TabIndex = 21;
+            this.grpDetails.TabStop = false;
+            this.grpDetails.Text = "Your Details";
             // 
-            // button2
+            // btnClear
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(420, 460);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 74);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
+            this.btnClear.FlatAppearance.BorderSize = 0;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.White;
+            this.btnClear.Location = new System.Drawing.Point(420, 460);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(170, 74);
+            this.btnClear.TabIndex = 28;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // button1
+            // btnPayment
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(20, 460);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 74);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Proceed To Payment";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPayment.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPayment.BackgroundImage")));
+            this.btnPayment.FlatAppearance.BorderSize = 0;
+            this.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPayment.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPayment.ForeColor = System.Drawing.Color.White;
+            this.btnPayment.Location = new System.Drawing.Point(20, 460);
+            this.btnPayment.Name = "btnPayment";
+            this.btnPayment.Size = new System.Drawing.Size(170, 74);
+            this.btnPayment.TabIndex = 27;
+            this.btnPayment.Text = "Proceed To Payment";
+            this.btnPayment.UseVisualStyleBackColor = true;
+            this.btnPayment.Click += new System.EventHandler(this.btnPayment_Click);
             // 
-            // textBox2
+            // txtEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(202, 245);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(330, 39);
-            this.textBox2.TabIndex = 26;
+            this.txtEmail.Location = new System.Drawing.Point(202, 245);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(330, 39);
+            this.txtEmail.TabIndex = 26;
             // 
-            // checkBox1
+            // chkSpecialOffers
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(517, 375);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 25;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkSpecialOffers.AutoSize = true;
+            this.chkSpecialOffers.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkSpecialOffers.Location = new System.Drawing.Point(517, 375);
+            this.chkSpecialOffers.Name = "chkSpecialOffers";
+            this.chkSpecialOffers.Size = new System.Drawing.Size(15, 14);
+            this.chkSpecialOffers.TabIndex = 25;
+            this.chkSpecialOffers.UseVisualStyleBackColor = true;
             // 
             // label20
             // 
@@ -175,12 +181,12 @@
             this.label7.TabIndex = 18;
             this.label7.Text = "PostCode";
             // 
-            // textBox3
+            // txtPostCode
             // 
-            this.textBox3.Location = new System.Drawing.Point(202, 118);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(330, 39);
-            this.textBox3.TabIndex = 17;
+            this.txtPostCode.Location = new System.Drawing.Point(202, 118);
+            this.txtPostCode.Name = "txtPostCode";
+            this.txtPostCode.Size = new System.Drawing.Size(330, 39);
+            this.txtPostCode.TabIndex = 17;
             // 
             // label9
             // 
@@ -204,13 +210,13 @@
             this.label10.TabIndex = 14;
             this.label10.Text = "*";
             // 
-            // comboBox1
+            // cmbAddress
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(202, 184);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(330, 39);
-            this.comboBox1.TabIndex = 1;
+            this.cmbAddress.FormattingEnabled = true;
+            this.cmbAddress.Location = new System.Drawing.Point(202, 184);
+            this.cmbAddress.Name = "cmbAddress";
+            this.cmbAddress.Size = new System.Drawing.Size(330, 39);
+            this.cmbAddress.TabIndex = 1;
             // 
             // label11
             // 
@@ -223,12 +229,12 @@
             this.label11.TabIndex = 13;
             this.label11.Text = "*";
             // 
-            // textBox5
+            // txtFullname
             // 
-            this.textBox5.Location = new System.Drawing.Point(202, 56);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(330, 39);
-            this.textBox5.TabIndex = 2;
+            this.txtFullname.Location = new System.Drawing.Point(202, 56);
+            this.txtFullname.Name = "txtFullname";
+            this.txtFullname.Size = new System.Drawing.Size(330, 39);
+            this.txtFullname.TabIndex = 2;
             // 
             // label12
             // 
@@ -274,13 +280,13 @@
             this.label15.TabIndex = 6;
             this.label15.Text = "Email";
             // 
-            // comboBox2
+            // cmbPhone
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(202, 310);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(330, 39);
-            this.comboBox2.TabIndex = 7;
+            this.cmbPhone.FormattingEnabled = true;
+            this.cmbPhone.Location = new System.Drawing.Point(202, 310);
+            this.cmbPhone.Name = "cmbPhone";
+            this.cmbPhone.Size = new System.Drawing.Size(330, 39);
+            this.cmbPhone.TabIndex = 7;
             // 
             // label16
             // 
@@ -307,6 +313,7 @@
             this.btnDetailsReturn.Text = "Home";
             this.btnDetailsReturn.UseCompatibleTextRendering = true;
             this.btnDetailsReturn.UseVisualStyleBackColor = true;
+            this.btnDetailsReturn.Click += new System.EventHandler(this.btnDetailsReturn_Click);
             // 
             // btnDetailsHelp
             // 
@@ -318,6 +325,40 @@
             this.btnDetailsHelp.Size = new System.Drawing.Size(114, 90);
             this.btnDetailsHelp.TabIndex = 23;
             this.btnDetailsHelp.UseVisualStyleBackColor = true;
+            this.btnDetailsHelp.Click += new System.EventHandler(this.btnDetailsHelp_Click);
+            // 
+            // grpInformation
+            // 
+            this.grpInformation.BackColor = System.Drawing.Color.Transparent;
+            this.grpInformation.Controls.Add(this.label1);
+            this.grpInformation.Controls.Add(this.textBox1);
+            this.grpInformation.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpInformation.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.grpInformation.Location = new System.Drawing.Point(642, 12);
+            this.grpInformation.Name = "grpInformation";
+            this.grpInformation.Size = new System.Drawing.Size(610, 550);
+            this.grpInformation.TabIndex = 24;
+            this.grpInformation.TabStop = false;
+            this.grpInformation.Text = "Additional Information";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(25, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(502, 24);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Please provide any additional information below: ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(29, 89);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(554, 445);
+            this.textBox1.TabIndex = 0;
             // 
             // Details
             // 
@@ -325,41 +366,48 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.grpInformation);
             this.Controls.Add(this.btnDetailsHelp);
             this.Controls.Add(this.btnDetailsReturn);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.grpDetails);
             this.Name = "Details";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Details";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.grpDetails.ResumeLayout(false);
+            this.grpDetails.PerformLayout();
+            this.grpInformation.ResumeLayout(false);
+            this.grpInformation.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.GroupBox grpDetails;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnPayment;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.CheckBox chkSpecialOffers;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtPostCode;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbAddress;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtFullname;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbPhone;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnDetailsReturn;
         private System.Windows.Forms.Button btnDetailsHelp;
+        private System.Windows.Forms.GroupBox grpInformation;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

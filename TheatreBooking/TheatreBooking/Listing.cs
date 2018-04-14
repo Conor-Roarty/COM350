@@ -16,5 +16,19 @@ namespace TheatreBooking
         {
             InitializeComponent();
         }
+
+        #region Buttons
+        private void btnBookingReturn_Click(object sender, EventArgs e)
+        {
+            TheatreBooking theatre = new TheatreBooking();
+            theatre.Show();
+            this.Hide();
+        }
+
+        private void btnBookingHelp_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }

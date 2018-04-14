@@ -117,7 +117,6 @@
             this.Name = "TheatreBooking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lunar Cinemas";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.TheatreBooking_Load);
             this.ResumeLayout(false);
 

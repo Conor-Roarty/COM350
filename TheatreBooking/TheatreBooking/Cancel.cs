@@ -17,19 +17,43 @@ namespace TheatreBooking
             InitializeComponent();
         }
 
-        private void Cancel_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        #region Buttons
         private void btnBookingReturn_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+            TheatreBooking theatre = new TheatreBooking();
+            theatre.Show();
+            this.Hide();
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtBookingNo.Clear();
+            txtEmail.Clear();
+            txtName.Clear();
+            cmbMovieTitle.Items.Clear();
+            cmbBookingTime.Items.Clear();
+        }
+
+        private void btnCancelBooking_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWrongDetails_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancelHelp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        #endregion
     }
 }

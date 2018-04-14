@@ -33,9 +33,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnBookingReturn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.btnConfirmedReturn = new System.Windows.Forms.Button();
+            this.btnConfirmedHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -83,24 +84,6 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "For Further Queries Or Assistance Please Contact Us At\r\nPhone : 02871885000 \r\n";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // btnBookingReturn
-            // 
-            this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
-            this.btnBookingReturn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnBookingReturn.FlatAppearance.BorderSize = 0;
-            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
-            this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
-            this.btnBookingReturn.Name = "btnBookingReturn";
-            this.btnBookingReturn.Padding = new System.Windows.Forms.Padding(500, 0, 500, 0);
-            this.btnBookingReturn.Size = new System.Drawing.Size(1264, 90);
-            this.btnBookingReturn.TabIndex = 5;
-            this.btnBookingReturn.Text = "Home";
-            this.btnBookingReturn.UseVisualStyleBackColor = true;
-            this.btnBookingReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
             // 
             // label2
             // 
@@ -116,7 +99,6 @@
             this.label2.Text = "Thank You For Booking With Lunar Cinemas\r\n\r\nYour Booking No: \r\n\r\nFull Booking Det" +
     "ails WIll Be In The Confirmation Email\r\n\r\nWe Look Forward To Seeing You :)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // linkLabel1
             // 
@@ -131,6 +113,34 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Email: bookingqueries@lunarcinemas.co.uk";
             // 
+            // btnConfirmedReturn
+            // 
+            this.btnConfirmedReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmedReturn.BackgroundImage")));
+            this.btnConfirmedReturn.FlatAppearance.BorderSize = 0;
+            this.btnConfirmedReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmedReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmedReturn.ForeColor = System.Drawing.Color.White;
+            this.btnConfirmedReturn.Location = new System.Drawing.Point(-3, 592);
+            this.btnConfirmedReturn.Name = "btnConfirmedReturn";
+            this.btnConfirmedReturn.Size = new System.Drawing.Size(1150, 90);
+            this.btnConfirmedReturn.TabIndex = 8;
+            this.btnConfirmedReturn.Text = "Home";
+            this.btnConfirmedReturn.UseCompatibleTextRendering = true;
+            this.btnConfirmedReturn.UseVisualStyleBackColor = true;
+            this.btnConfirmedReturn.Click += new System.EventHandler(this.btnConfirmedReturn_Click);
+            // 
+            // btnConfirmedHelp
+            // 
+            this.btnConfirmedHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmedHelp.BackgroundImage")));
+            this.btnConfirmedHelp.FlatAppearance.BorderSize = 0;
+            this.btnConfirmedHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmedHelp.Location = new System.Drawing.Point(1148, 593);
+            this.btnConfirmedHelp.Name = "btnConfirmedHelp";
+            this.btnConfirmedHelp.Size = new System.Drawing.Size(114, 90);
+            this.btnConfirmedHelp.TabIndex = 32;
+            this.btnConfirmedHelp.UseVisualStyleBackColor = true;
+            this.btnConfirmedHelp.Click += new System.EventHandler(this.btnConfirmedHelp_Click);
+            // 
             // ConfirmedBooking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,16 +148,17 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btnConfirmedHelp);
+            this.Controls.Add(this.btnConfirmedReturn);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnBookingReturn);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "ConfirmedBooking";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConfirmedBooking";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ConfirmedBooking_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -160,8 +171,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnBookingReturn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btnConfirmedReturn;
+        private System.Windows.Forms.Button btnConfirmedHelp;
     }
 }

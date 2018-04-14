@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Events));
-            this.btnBookingReturn = new System.Windows.Forms.Button();
+            this.btnEventsReturn = new System.Windows.Forms.Button();
             this.lblBookMovie = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,20 +37,20 @@
             this.btnEventsHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnBookingReturn
+            // btnEventsReturn
             // 
-            this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
-            this.btnBookingReturn.FlatAppearance.BorderSize = 0;
-            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
-            this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
-            this.btnBookingReturn.Name = "btnBookingReturn";
-            this.btnBookingReturn.Size = new System.Drawing.Size(1150, 90);
-            this.btnBookingReturn.TabIndex = 31;
-            this.btnBookingReturn.Text = "Home";
-            this.btnBookingReturn.UseVisualStyleBackColor = true;
-            this.btnBookingReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
+            this.btnEventsReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEventsReturn.BackgroundImage")));
+            this.btnEventsReturn.FlatAppearance.BorderSize = 0;
+            this.btnEventsReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEventsReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEventsReturn.ForeColor = System.Drawing.Color.White;
+            this.btnEventsReturn.Location = new System.Drawing.Point(0, 591);
+            this.btnEventsReturn.Name = "btnEventsReturn";
+            this.btnEventsReturn.Size = new System.Drawing.Size(1150, 90);
+            this.btnEventsReturn.TabIndex = 31;
+            this.btnEventsReturn.Text = "Home";
+            this.btnEventsReturn.UseVisualStyleBackColor = true;
+            this.btnEventsReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
             // 
             // lblBookMovie
             // 
@@ -125,17 +125,17 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblBookMovie);
-            this.Controls.Add(this.btnBookingReturn);
+            this.Controls.Add(this.btnEventsReturn);
             this.Name = "Events";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Events";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnBookingReturn;
+        private System.Windows.Forms.Button btnEventsReturn;
         private System.Windows.Forms.Label lblBookMovie;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
