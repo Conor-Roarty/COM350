@@ -115,9 +115,10 @@
             // 
             // btnConfirmedReturn
             // 
+            this.btnConfirmedReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnConfirmedReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmedReturn.BackgroundImage")));
             this.btnConfirmedReturn.FlatAppearance.BorderSize = 0;
-            this.btnConfirmedReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmedReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnConfirmedReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirmedReturn.ForeColor = System.Drawing.Color.White;
             this.btnConfirmedReturn.Location = new System.Drawing.Point(-3, 592);
@@ -126,19 +127,20 @@
             this.btnConfirmedReturn.TabIndex = 8;
             this.btnConfirmedReturn.Text = "Home";
             this.btnConfirmedReturn.UseCompatibleTextRendering = true;
-            this.btnConfirmedReturn.UseVisualStyleBackColor = true;
+            this.btnConfirmedReturn.UseVisualStyleBackColor = false;
             this.btnConfirmedReturn.Click += new System.EventHandler(this.btnConfirmedReturn_Click);
             // 
             // btnConfirmedHelp
             // 
+            this.btnConfirmedHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnConfirmedHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmedHelp.BackgroundImage")));
             this.btnConfirmedHelp.FlatAppearance.BorderSize = 0;
-            this.btnConfirmedHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmedHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnConfirmedHelp.Location = new System.Drawing.Point(1148, 593);
             this.btnConfirmedHelp.Name = "btnConfirmedHelp";
             this.btnConfirmedHelp.Size = new System.Drawing.Size(114, 90);
             this.btnConfirmedHelp.TabIndex = 32;
-            this.btnConfirmedHelp.UseVisualStyleBackColor = true;
+            this.btnConfirmedHelp.UseVisualStyleBackColor = false;
             this.btnConfirmedHelp.Click += new System.EventHandler(this.btnConfirmedHelp_Click);
             // 
             // ConfirmedBooking

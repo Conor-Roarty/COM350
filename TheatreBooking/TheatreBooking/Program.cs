@@ -16,7 +16,7 @@ namespace TheatreBooking
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TheatreBooking());
+            Application.Run(new Welcome());
         }
     }
 }

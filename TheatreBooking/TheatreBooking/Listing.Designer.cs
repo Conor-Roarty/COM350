@@ -53,14 +53,15 @@
             // 
             // btnBookingHelp
             // 
+            this.btnBookingHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnBookingHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingHelp.BackgroundImage")));
             this.btnBookingHelp.FlatAppearance.BorderSize = 0;
-            this.btnBookingHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookingHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBookingHelp.Location = new System.Drawing.Point(1148, 591);
             this.btnBookingHelp.Name = "btnBookingHelp";
             this.btnBookingHelp.Size = new System.Drawing.Size(114, 90);
             this.btnBookingHelp.TabIndex = 33;
-            this.btnBookingHelp.UseVisualStyleBackColor = true;
+            this.btnBookingHelp.UseVisualStyleBackColor = false;
             this.btnBookingHelp.Click += new System.EventHandler(this.btnBookingHelp_Click);
             // 
             // btnBookingReturn
@@ -68,7 +69,7 @@
             this.btnBookingReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
-            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
             this.btnBookingReturn.Location = new System.Drawing.Point(-2, 591);
@@ -153,77 +154,101 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.CausesValidation = false;
             this.textBox1.Font = new System.Drawing.Font("Eras Demi ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(154, 13);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(465, 170);
             this.textBox1.TabIndex = 44;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBox1.Text = "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a " +
+    "new threat from the evil Kylo Ren and his army of Stormtroopers.\r\n\r\n\r\nRating: 12" +
+    "A\r\n\r\nRuntime: 2h 16m";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox2.BackColor = System.Drawing.Color.Black;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.CausesValidation = false;
+            this.textBox2.Font = new System.Drawing.Font("Eras Demi ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(154, 207);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(465, 170);
             this.textBox2.TabIndex = 45;
+            this.textBox2.Text = resources.GetString("textBox2.Text");
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox3.BackColor = System.Drawing.Color.Black;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.CausesValidation = false;
+            this.textBox3.Font = new System.Drawing.Font("Eras Demi ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(154, 404);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(465, 170);
             this.textBox3.TabIndex = 46;
+            this.textBox3.Text = resources.GetString("textBox3.Text");
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox4.BackColor = System.Drawing.Color.Black;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.CausesValidation = false;
+            this.textBox4.Font = new System.Drawing.Font("Eras Demi ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.Color.White;
             this.textBox4.Location = new System.Drawing.Point(778, 13);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(465, 170);
             this.textBox4.TabIndex = 47;
+            this.textBox4.Text = resources.GetString("textBox4.Text");
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox5.BackColor = System.Drawing.Color.Black;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.CausesValidation = false;
+            this.textBox5.Font = new System.Drawing.Font("Eras Demi ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.Color.White;
             this.textBox5.Location = new System.Drawing.Point(778, 207);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(465, 170);
             this.textBox5.TabIndex = 48;
+            this.textBox5.Text = resources.GetString("textBox5.Text");
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox6
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox6.BackColor = System.Drawing.Color.Black;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.CausesValidation = false;
+            this.textBox6.Font = new System.Drawing.Font("Eras Demi ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.ForeColor = System.Drawing.Color.White;
             this.textBox6.Location = new System.Drawing.Point(778, 404);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(465, 170);
             this.textBox6.TabIndex = 49;
+            this.textBox6.Text = resources.GetString("textBox6.Text");
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Listing
             // 

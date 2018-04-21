@@ -93,9 +93,10 @@
             // 
             // btnBookingReturn
             // 
+            this.btnBookingReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
-            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
             this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
@@ -104,17 +105,19 @@
             this.btnBookingReturn.TabIndex = 0;
             this.btnBookingReturn.Text = "Home";
             this.btnBookingReturn.UseCompatibleTextRendering = true;
-            this.btnBookingReturn.UseVisualStyleBackColor = true;
+            this.btnBookingReturn.UseVisualStyleBackColor = false;
             this.btnBookingReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
             // 
             // cmbMovieBook
             // 
             this.cmbMovieBook.FormattingEnabled = true;
             this.cmbMovieBook.Items.AddRange(new object[] {
+            "Star Wars: The Force Awakens",
             "Pulp Fiction",
             "Jumanji",
             "The Room",
-            "Avengers: Infinity War"});
+            "Avengers: Infinity War",
+            "The Shape of Water"});
             this.cmbMovieBook.Location = new System.Drawing.Point(234, 118);
             this.cmbMovieBook.Name = "cmbMovieBook";
             this.cmbMovieBook.Size = new System.Drawing.Size(330, 39);
@@ -328,14 +331,15 @@
             // 
             // btnBookingHelp
             // 
+            this.btnBookingHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnBookingHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingHelp.BackgroundImage")));
             this.btnBookingHelp.FlatAppearance.BorderSize = 0;
-            this.btnBookingHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookingHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBookingHelp.Location = new System.Drawing.Point(1150, 592);
             this.btnBookingHelp.Name = "btnBookingHelp";
             this.btnBookingHelp.Size = new System.Drawing.Size(114, 90);
             this.btnBookingHelp.TabIndex = 21;
-            this.btnBookingHelp.UseVisualStyleBackColor = true;
+            this.btnBookingHelp.UseVisualStyleBackColor = false;
             // 
             // grpBoxConfirmation
             // 
@@ -382,10 +386,10 @@
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.Firebrick;
+            this.btnClear.BackColor = System.Drawing.Color.Transparent;
             this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
             this.btnClear.FlatAppearance.BorderSize = 0;
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(430, 460);
@@ -398,9 +402,10 @@
             // 
             // btnProceed
             // 
+            this.btnProceed.BackColor = System.Drawing.Color.Transparent;
             this.btnProceed.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProceed.BackgroundImage")));
             this.btnProceed.FlatAppearance.BorderSize = 0;
-            this.btnProceed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProceed.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnProceed.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProceed.ForeColor = System.Drawing.Color.White;
             this.btnProceed.Location = new System.Drawing.Point(20, 460);
@@ -408,7 +413,7 @@
             this.btnProceed.Size = new System.Drawing.Size(162, 74);
             this.btnProceed.TabIndex = 24;
             this.btnProceed.Text = "Proceeed To Payment";
-            this.btnProceed.UseVisualStyleBackColor = true;
+            this.btnProceed.UseVisualStyleBackColor = false;
             this.btnProceed.Click += new System.EventHandler(this.btnProceed_Click);
             // 
             // lnkLblScreenDetails

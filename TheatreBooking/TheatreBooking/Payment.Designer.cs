@@ -101,10 +101,10 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.Firebrick;
+            this.btnCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnCancel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancel.BackgroundImage")));
             this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancel.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
             this.btnCancel.Location = new System.Drawing.Point(657, 420);
@@ -117,9 +117,10 @@
             // 
             // btnProceed
             // 
+            this.btnProceed.BackColor = System.Drawing.Color.Transparent;
             this.btnProceed.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProceed.BackgroundImage")));
             this.btnProceed.FlatAppearance.BorderSize = 0;
-            this.btnProceed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProceed.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnProceed.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProceed.ForeColor = System.Drawing.Color.White;
             this.btnProceed.Location = new System.Drawing.Point(439, 420);
@@ -127,7 +128,7 @@
             this.btnProceed.Size = new System.Drawing.Size(162, 74);
             this.btnProceed.TabIndex = 36;
             this.btnProceed.Text = "Confirm Payment";
-            this.btnProceed.UseVisualStyleBackColor = true;
+            this.btnProceed.UseVisualStyleBackColor = false;
             this.btnProceed.Click += new System.EventHandler(this.btnProceed_Click);
             // 
             // label2
@@ -287,7 +288,7 @@
             this.btnBookingReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
-            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
             this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
@@ -300,14 +301,15 @@
             // 
             // btnCardHelp
             // 
+            this.btnCardHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnCardHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCardHelp.BackgroundImage")));
             this.btnCardHelp.FlatAppearance.BorderSize = 0;
-            this.btnCardHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCardHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCardHelp.Location = new System.Drawing.Point(1150, 592);
             this.btnCardHelp.Name = "btnCardHelp";
             this.btnCardHelp.Size = new System.Drawing.Size(114, 90);
             this.btnCardHelp.TabIndex = 33;
-            this.btnCardHelp.UseVisualStyleBackColor = true;
+            this.btnCardHelp.UseVisualStyleBackColor = false;
             // 
             // grpPaymentType
             // 

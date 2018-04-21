@@ -39,9 +39,10 @@
             // 
             // btnEventsReturn
             // 
+            this.btnEventsReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnEventsReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEventsReturn.BackgroundImage")));
             this.btnEventsReturn.FlatAppearance.BorderSize = 0;
-            this.btnEventsReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEventsReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEventsReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEventsReturn.ForeColor = System.Drawing.Color.White;
             this.btnEventsReturn.Location = new System.Drawing.Point(0, 591);
@@ -49,7 +50,7 @@
             this.btnEventsReturn.Size = new System.Drawing.Size(1150, 90);
             this.btnEventsReturn.TabIndex = 31;
             this.btnEventsReturn.Text = "Home";
-            this.btnEventsReturn.UseVisualStyleBackColor = true;
+            this.btnEventsReturn.UseVisualStyleBackColor = false;
             this.btnEventsReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
             // 
             // lblBookMovie
@@ -104,14 +105,15 @@
             // 
             // btnEventsHelp
             // 
+            this.btnEventsHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnEventsHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEventsHelp.BackgroundImage")));
             this.btnEventsHelp.FlatAppearance.BorderSize = 0;
-            this.btnEventsHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEventsHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEventsHelp.Location = new System.Drawing.Point(1150, 592);
             this.btnEventsHelp.Name = "btnEventsHelp";
             this.btnEventsHelp.Size = new System.Drawing.Size(114, 90);
             this.btnEventsHelp.TabIndex = 36;
-            this.btnEventsHelp.UseVisualStyleBackColor = true;
+            this.btnEventsHelp.UseVisualStyleBackColor = false;
             // 
             // Events
             // 

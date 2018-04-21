@@ -135,10 +135,10 @@
             // 
             // btnWrongDetails
             // 
-            this.btnWrongDetails.BackColor = System.Drawing.Color.Firebrick;
+            this.btnWrongDetails.BackColor = System.Drawing.Color.Transparent;
             this.btnWrongDetails.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWrongDetails.BackgroundImage")));
             this.btnWrongDetails.FlatAppearance.BorderSize = 0;
-            this.btnWrongDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWrongDetails.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnWrongDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWrongDetails.ForeColor = System.Drawing.Color.White;
             this.btnWrongDetails.Location = new System.Drawing.Point(430, 460);
@@ -151,9 +151,10 @@
             // 
             // btnCancelBooking
             // 
+            this.btnCancelBooking.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelBooking.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelBooking.BackgroundImage")));
             this.btnCancelBooking.FlatAppearance.BorderSize = 0;
-            this.btnCancelBooking.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelBooking.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelBooking.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelBooking.ForeColor = System.Drawing.Color.White;
             this.btnCancelBooking.Location = new System.Drawing.Point(20, 460);
@@ -161,7 +162,7 @@
             this.btnCancelBooking.Size = new System.Drawing.Size(162, 74);
             this.btnCancelBooking.TabIndex = 26;
             this.btnCancelBooking.Text = "Cancel This Booking";
-            this.btnCancelBooking.UseVisualStyleBackColor = true;
+            this.btnCancelBooking.UseVisualStyleBackColor = false;
             this.btnCancelBooking.Click += new System.EventHandler(this.btnCancelBooking_Click);
             // 
             // label1
@@ -239,10 +240,10 @@
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.Firebrick;
+            this.btnClear.BackColor = System.Drawing.Color.Transparent;
             this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
             this.btnClear.FlatAppearance.BorderSize = 0;
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(430, 460);
@@ -255,9 +256,10 @@
             // 
             // btnSearch
             // 
+            this.btnSearch.BackColor = System.Drawing.Color.Transparent;
             this.btnSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSearch.BackgroundImage")));
             this.btnSearch.FlatAppearance.BorderSize = 0;
-            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSearch.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.Location = new System.Drawing.Point(20, 460);
@@ -265,7 +267,7 @@
             this.btnSearch.Size = new System.Drawing.Size(162, 74);
             this.btnSearch.TabIndex = 42;
             this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // cmbMovieTitle
@@ -419,9 +421,10 @@
             // 
             // btnCancelReturn
             // 
+            this.btnCancelReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelReturn.BackgroundImage")));
             this.btnCancelReturn.FlatAppearance.BorderSize = 0;
-            this.btnCancelReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelReturn.ForeColor = System.Drawing.Color.White;
             this.btnCancelReturn.Location = new System.Drawing.Point(0, 591);
@@ -429,19 +432,20 @@
             this.btnCancelReturn.Size = new System.Drawing.Size(1150, 90);
             this.btnCancelReturn.TabIndex = 30;
             this.btnCancelReturn.Text = "Home";
-            this.btnCancelReturn.UseVisualStyleBackColor = true;
+            this.btnCancelReturn.UseVisualStyleBackColor = false;
             this.btnCancelReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
             // 
             // btnCancelHelp
             // 
+            this.btnCancelHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelHelp.BackgroundImage")));
             this.btnCancelHelp.FlatAppearance.BorderSize = 0;
-            this.btnCancelHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelHelp.Location = new System.Drawing.Point(1150, 592);
             this.btnCancelHelp.Name = "btnCancelHelp";
             this.btnCancelHelp.Size = new System.Drawing.Size(114, 90);
             this.btnCancelHelp.TabIndex = 31;
-            this.btnCancelHelp.UseVisualStyleBackColor = true;
+            this.btnCancelHelp.UseVisualStyleBackColor = false;
             this.btnCancelHelp.Click += new System.EventHandler(this.btnCancelHelp_Click);
             // 
             // Cancel

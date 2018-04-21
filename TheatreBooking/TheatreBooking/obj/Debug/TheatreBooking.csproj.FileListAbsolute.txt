@@ -29,7 +29,9 @@ C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Deb
 C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Payment.resources
 C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Properties.Resources.resources
 C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Screen.resources
+C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Welcome.resources
 C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csproj.GenerateResource.Cache
 C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csproj.CoreCompileInputs.cache
 C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.exe
 C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.pdb
+C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csprojResolveAssemblyReference.cache

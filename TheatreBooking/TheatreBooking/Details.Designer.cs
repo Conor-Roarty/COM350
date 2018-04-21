@@ -93,9 +93,10 @@
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.Transparent;
             this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
             this.btnClear.FlatAppearance.BorderSize = 0;
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(420, 460);
@@ -103,14 +104,15 @@
             this.btnClear.Size = new System.Drawing.Size(170, 74);
             this.btnClear.TabIndex = 28;
             this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnPayment
             // 
+            this.btnPayment.BackColor = System.Drawing.Color.Transparent;
             this.btnPayment.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPayment.BackgroundImage")));
             this.btnPayment.FlatAppearance.BorderSize = 0;
-            this.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPayment.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPayment.ForeColor = System.Drawing.Color.White;
             this.btnPayment.Location = new System.Drawing.Point(20, 460);
@@ -118,7 +120,7 @@
             this.btnPayment.Size = new System.Drawing.Size(170, 74);
             this.btnPayment.TabIndex = 27;
             this.btnPayment.Text = "Proceed To Payment";
-            this.btnPayment.UseVisualStyleBackColor = true;
+            this.btnPayment.UseVisualStyleBackColor = false;
             this.btnPayment.Click += new System.EventHandler(this.btnPayment_Click);
             // 
             // txtEmail
@@ -301,9 +303,10 @@
             // 
             // btnDetailsReturn
             // 
+            this.btnDetailsReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnDetailsReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDetailsReturn.BackgroundImage")));
             this.btnDetailsReturn.FlatAppearance.BorderSize = 0;
-            this.btnDetailsReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetailsReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDetailsReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetailsReturn.ForeColor = System.Drawing.Color.White;
             this.btnDetailsReturn.Location = new System.Drawing.Point(0, 592);
@@ -312,19 +315,20 @@
             this.btnDetailsReturn.TabIndex = 22;
             this.btnDetailsReturn.Text = "Home";
             this.btnDetailsReturn.UseCompatibleTextRendering = true;
-            this.btnDetailsReturn.UseVisualStyleBackColor = true;
+            this.btnDetailsReturn.UseVisualStyleBackColor = false;
             this.btnDetailsReturn.Click += new System.EventHandler(this.btnDetailsReturn_Click);
             // 
             // btnDetailsHelp
             // 
+            this.btnDetailsHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnDetailsHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDetailsHelp.BackgroundImage")));
             this.btnDetailsHelp.FlatAppearance.BorderSize = 0;
-            this.btnDetailsHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetailsHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDetailsHelp.Location = new System.Drawing.Point(1150, 593);
             this.btnDetailsHelp.Name = "btnDetailsHelp";
             this.btnDetailsHelp.Size = new System.Drawing.Size(114, 90);
             this.btnDetailsHelp.TabIndex = 23;
-            this.btnDetailsHelp.UseVisualStyleBackColor = true;
+            this.btnDetailsHelp.UseVisualStyleBackColor = false;
             this.btnDetailsHelp.Click += new System.EventHandler(this.btnDetailsHelp_Click);
             // 
             // grpInformation
