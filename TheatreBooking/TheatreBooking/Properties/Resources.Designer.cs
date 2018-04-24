@@ -73,6 +73,26 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background_image_blank {
+            get {
+                object obj = ResourceManager.GetObject("background image blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Classroom_Chair {
+            get {
+                object obj = ResourceManager.GetObject("Classroom_Chair", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ForceAwakens {
             get {
                 object obj = ResourceManager.GetObject("ForceAwakens", resourceCulture);
@@ -96,6 +116,16 @@ namespace TheatreBooking.Properties {
         internal static System.Drawing.Bitmap PulpFiction {
             get {
                 object obj = ResourceManager.GetObject("PulpFiction", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap red_x_icon_th {
+            get {
+                object obj = ResourceManager.GetObject("red-x-icon-th", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

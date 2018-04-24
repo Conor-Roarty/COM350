@@ -75,6 +75,18 @@
     <Compile Include="Events.Designer.cs">
       <DependentUpon>Events.cs</DependentUpon>
     </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seats.Designer.cs">
+      <DependentUpon>Seats.cs</DependentUpon>
+    </Compile>
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +134,9 @@
     <EmbeddedResource Include="Events.resx">
       <DependentUpon>Events.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +158,9 @@
     </Compile>
     <EmbeddedResource Include="Screen.resx">
       <DependentUpon>Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seats.resx">
+      <DependentUpon>Seats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
@@ -177,6 +195,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\The Room.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Classroom_Chair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-x-icon-th.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background image blank.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

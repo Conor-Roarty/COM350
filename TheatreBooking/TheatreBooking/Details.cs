@@ -22,7 +22,7 @@ namespace TheatreBooking
         {
             Payment pay = new Payment();
             pay.Show();
-            this.Hide();
+            this.Close();//same again
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace TheatreBooking
             txtEmail.Clear();
             txtPostCode.Clear();
             cmbAddress.Items.Clear();
-            cmbPhone.Items.Clear();
+            txtPhoneNo.Clear();
         }
         private void btnDetailsReturn_Click(object sender, EventArgs e)
         {
@@ -42,7 +42,8 @@ namespace TheatreBooking
 
         private void btnDetailsHelp_Click(object sender, EventArgs e)
         {
-
+            Help h = new Help();
+            h.Show();
         }
         #endregion
     }

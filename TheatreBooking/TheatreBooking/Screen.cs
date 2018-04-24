@@ -16,5 +16,11 @@ namespace TheatreBooking
         {
             InitializeComponent();
         }
+
+        private void btnBookingReturn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
     }
 }

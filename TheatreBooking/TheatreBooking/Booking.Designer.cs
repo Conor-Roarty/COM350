@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label lblSpecial;
             System.Windows.Forms.Label label8;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Booking));
@@ -45,6 +46,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.grpBoxEnterBooking = new System.Windows.Forms.GroupBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.radBtnYesWheelchair = new System.Windows.Forms.RadioButton();
             this.radBtnNoWheelchair = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,21 +54,27 @@
             this.txtOtherReqs = new System.Windows.Forms.TextBox();
             this.btnBookingHelp = new System.Windows.Forms.Button();
             this.grpBoxConfirmation = new System.Windows.Forms.GroupBox();
+            this.btnScreenDets = new System.Windows.Forms.Button();
             this.lblNumber = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnProceed = new System.Windows.Forms.Button();
-            this.lnkLblScreenDetails = new System.Windows.Forms.LinkLabel();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.epNoOfTickets = new System.Windows.Forms.ErrorProvider(this.components);
+            this.epMovie = new System.Windows.Forms.ErrorProvider(this.components);
+            this.epTime = new System.Windows.Forms.ErrorProvider(this.components);
             lblSpecial = new System.Windows.Forms.Label();
             label8 = new System.Windows.Forms.Label();
             this.grpBoxEnterBooking.SuspendLayout();
             this.grpBoxConfirmation.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epNoOfTickets)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epMovie)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epTime)).BeginInit();
             this.SuspendLayout();
             // 
             // lblSpecial
@@ -74,7 +82,7 @@
             lblSpecial.AutoSize = true;
             lblSpecial.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             lblSpecial.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            lblSpecial.Location = new System.Drawing.Point(14, 487);
+            lblSpecial.Location = new System.Drawing.Point(14, 429);
             lblSpecial.Name = "lblSpecial";
             lblSpecial.Size = new System.Drawing.Size(213, 24);
             lblSpecial.TabIndex = 16;
@@ -248,6 +256,7 @@
             // grpBoxEnterBooking
             // 
             this.grpBoxEnterBooking.BackColor = System.Drawing.Color.Transparent;
+            this.grpBoxEnterBooking.Controls.Add(this.linkLabel1);
             this.grpBoxEnterBooking.Controls.Add(label8);
             this.grpBoxEnterBooking.Controls.Add(this.radBtnYesWheelchair);
             this.grpBoxEnterBooking.Controls.Add(this.radBtnNoWheelchair);
@@ -275,6 +284,20 @@
             this.grpBoxEnterBooking.TabIndex = 15;
             this.grpBoxEnterBooking.TabStop = false;
             this.grpBoxEnterBooking.Text = "Booking Details";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.Cyan;
+            this.linkLabel1.Location = new System.Drawing.Point(230, 369);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(267, 24);
+            this.linkLabel1.TabIndex = 23;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Touch Here To Select Seat";
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Cyan;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // radBtnYesWheelchair
             // 
@@ -324,7 +347,7 @@
             // 
             // txtOtherReqs
             // 
-            this.txtOtherReqs.Location = new System.Drawing.Point(234, 482);
+            this.txtOtherReqs.Location = new System.Drawing.Point(234, 424);
             this.txtOtherReqs.Name = "txtOtherReqs";
             this.txtOtherReqs.Size = new System.Drawing.Size(330, 39);
             this.txtOtherReqs.TabIndex = 15;
@@ -344,11 +367,11 @@
             // grpBoxConfirmation
             // 
             this.grpBoxConfirmation.BackColor = System.Drawing.Color.Transparent;
+            this.grpBoxConfirmation.Controls.Add(this.btnScreenDets);
             this.grpBoxConfirmation.Controls.Add(this.lblNumber);
             this.grpBoxConfirmation.Controls.Add(this.label26);
             this.grpBoxConfirmation.Controls.Add(this.btnClear);
             this.grpBoxConfirmation.Controls.Add(this.btnProceed);
-            this.grpBoxConfirmation.Controls.Add(this.lnkLblScreenDetails);
             this.grpBoxConfirmation.Controls.Add(this.label25);
             this.grpBoxConfirmation.Controls.Add(this.label24);
             this.grpBoxConfirmation.Controls.Add(this.pictureBox1);
@@ -362,6 +385,21 @@
             this.grpBoxConfirmation.TabIndex = 25;
             this.grpBoxConfirmation.TabStop = false;
             this.grpBoxConfirmation.Text = "Confirmation Details";
+            // 
+            // btnScreenDets
+            // 
+            this.btnScreenDets.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnScreenDets.BackgroundImage")));
+            this.btnScreenDets.FlatAppearance.BorderSize = 0;
+            this.btnScreenDets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnScreenDets.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScreenDets.ForeColor = System.Drawing.Color.White;
+            this.btnScreenDets.Location = new System.Drawing.Point(360, 164);
+            this.btnScreenDets.Name = "btnScreenDets";
+            this.btnScreenDets.Size = new System.Drawing.Size(162, 42);
+            this.btnScreenDets.TabIndex = 30;
+            this.btnScreenDets.Text = "Screen Details";
+            this.btnScreenDets.UseVisualStyleBackColor = true;
+            this.btnScreenDets.Click += new System.EventHandler(this.btnScreenDets_Click);
             // 
             // lblNumber
             // 
@@ -412,27 +450,9 @@
             this.btnProceed.Name = "btnProceed";
             this.btnProceed.Size = new System.Drawing.Size(162, 74);
             this.btnProceed.TabIndex = 24;
-            this.btnProceed.Text = "Proceeed To Payment";
+            this.btnProceed.Text = "Proceeed To Your Details";
             this.btnProceed.UseVisualStyleBackColor = false;
             this.btnProceed.Click += new System.EventHandler(this.btnProceed_Click);
-            // 
-            // lnkLblScreenDetails
-            // 
-            this.lnkLblScreenDetails.ActiveLinkColor = System.Drawing.Color.White;
-            this.lnkLblScreenDetails.AutoSize = true;
-            this.lnkLblScreenDetails.DisabledLinkColor = System.Drawing.Color.White;
-            this.lnkLblScreenDetails.Enabled = false;
-            this.lnkLblScreenDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkLblScreenDetails.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
-            this.lnkLblScreenDetails.LinkColor = System.Drawing.Color.White;
-            this.lnkLblScreenDetails.Location = new System.Drawing.Point(353, 149);
-            this.lnkLblScreenDetails.Name = "lnkLblScreenDetails";
-            this.lnkLblScreenDetails.Size = new System.Drawing.Size(150, 24);
-            this.lnkLblScreenDetails.TabIndex = 10;
-            this.lnkLblScreenDetails.TabStop = true;
-            this.lnkLblScreenDetails.Text = "Screen Details";
-            this.lnkLblScreenDetails.VisitedLinkColor = System.Drawing.Color.White;
-            this.lnkLblScreenDetails.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkLblScreenDetails_LinkClicked);
             // 
             // label25
             // 
@@ -487,6 +507,18 @@
             this.label22.TabIndex = 5;
             this.label22.Text = "Movie :";
             // 
+            // epNoOfTickets
+            // 
+            this.epNoOfTickets.ContainerControl = this;
+            // 
+            // epMovie
+            // 
+            this.epMovie.ContainerControl = this;
+            // 
+            // epTime
+            // 
+            this.epTime.ContainerControl = this;
+            // 
             // Booking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -510,6 +542,9 @@
             this.grpBoxConfirmation.ResumeLayout(false);
             this.grpBoxConfirmation.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epNoOfTickets)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epMovie)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epTime)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -541,11 +576,15 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnProceed;
-        private System.Windows.Forms.LinkLabel lnkLblScreenDetails;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ErrorProvider epNoOfTickets;
+        private System.Windows.Forms.ErrorProvider epMovie;
+        private System.Windows.Forms.ErrorProvider epTime;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btnScreenDets;
     }
 }

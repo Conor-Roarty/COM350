@@ -16,6 +16,11 @@ namespace TheatreBooking
         {
             InitializeComponent();
             radBtnNoWheelchair.Select();
+            dtpBookingDate.Value = DateTime.Today;
+            dtpBookingDate.MinDate = DateTime.Today;
+            dtpBookingDate.MaxDate = DateTime.Today.AddMonths(2);
+            cmbBookingTime.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbMovieBook.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void Booking_Load(object sender, EventArgs e)
@@ -33,9 +38,46 @@ namespace TheatreBooking
 
         private void btnProceed_Click(object sender, EventArgs e)
         {
-            Payment pay = new Payment();
-            pay.Show();
-            this.Close();
+            //change to deatils page so we have details for ticket printing, payment to come last
+            int parse;
+            bool valid = true;
+
+            if (!int.TryParse(txtNoOfTicketsBooking.Text, out parse))
+            {
+                epNoOfTickets.SetError(txtNoOfTicketsBooking, "Only Valid Numbers Can Be Entered");
+                valid = false;
+            }
+            else if (txtNoOfTicketsBooking.Text == "")
+            {
+                epNoOfTickets.SetError(txtNoOfTicketsBooking, "This Is A Required Field");
+                valid = false;
+            }
+            else
+                epNoOfTickets.Clear();
+
+            if (cmbBookingTime.SelectedIndex == -1)
+            {
+                epTime.SetError(cmbBookingTime, "This Is A Required Field");
+                valid = false;
+            }
+            else
+                epTime.Clear();
+
+            if (cmbMovieBook.SelectedIndex == -1)
+            {
+                epMovie.SetError(cmbMovieBook, "This Is A Required Field");
+                valid = false;
+            }
+            else
+                epMovie.Clear();
+
+
+            if (valid)
+            {
+                Details d = new Details();
+                d.Show();
+                //this.Close();//do not close, keep running so details stay and not everything has to be re-entered, just editted
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -83,12 +125,12 @@ namespace TheatreBooking
         {//usually search db for actual screen but here just set to random number
             if (dtpBookingDate.Value != null)
             {
-                lnkLblScreenDetails.Enabled = true;
+                btnScreenDets.Enabled = true;
                 lblNumber.Text = "69";
             }
             else
             {
-                lnkLblScreenDetails.Enabled = false;
+                btnScreenDets.Enabled = false;
                 lblNumber.Text = "N/A";
             }
         }
@@ -99,23 +141,36 @@ namespace TheatreBooking
         {//usually search db for actual screen and IF FOUND set to that value but here just set to random number
             if (cmbBookingTime.SelectedIndex != -1)
             {
-                lnkLblScreenDetails.Enabled = true;
+                btnScreenDets.Enabled = true;
                 lblNumber.Text = "69";
             }
             else
             {
-                lnkLblScreenDetails.Enabled = false;
+                btnScreenDets.Enabled = false;
                 lblNumber.Text = "N/A";
             }
         }
 
-        private void lnkLblScreenDetails_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+
+        #endregion
+
+        private void btnScreenDets_Click(object sender, EventArgs e)
         {
             Screen s = new Screen();
             s.Show();
-            this.Hide();
         }
 
-        #endregion
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                Seats s = new Seats(Convert.ToInt32(txtNoOfTicketsBooking.Text));
+                s.Show();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Please Esnure You Have Entered A Valid Number Of Tickets Before Selecting Seat(s)");
+            }
+        }
     }
 }
