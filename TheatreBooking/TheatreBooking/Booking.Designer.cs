@@ -418,17 +418,20 @@
             // 
             // lnkLblScreenDetails
             // 
+            this.lnkLblScreenDetails.ActiveLinkColor = System.Drawing.Color.White;
             this.lnkLblScreenDetails.AutoSize = true;
+            this.lnkLblScreenDetails.DisabledLinkColor = System.Drawing.Color.White;
             this.lnkLblScreenDetails.Enabled = false;
             this.lnkLblScreenDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkLblScreenDetails.LinkColor = System.Drawing.Color.Cyan;
+            this.lnkLblScreenDetails.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
+            this.lnkLblScreenDetails.LinkColor = System.Drawing.Color.White;
             this.lnkLblScreenDetails.Location = new System.Drawing.Point(353, 149);
             this.lnkLblScreenDetails.Name = "lnkLblScreenDetails";
             this.lnkLblScreenDetails.Size = new System.Drawing.Size(150, 24);
             this.lnkLblScreenDetails.TabIndex = 10;
             this.lnkLblScreenDetails.TabStop = true;
             this.lnkLblScreenDetails.Text = "Screen Details";
-            this.lnkLblScreenDetails.VisitedLinkColor = System.Drawing.Color.Cyan;
+            this.lnkLblScreenDetails.VisitedLinkColor = System.Drawing.Color.White;
             this.lnkLblScreenDetails.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkLblScreenDetails_LinkClicked);
             // 
             // label25

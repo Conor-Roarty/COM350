@@ -38,7 +38,6 @@ C:\Users\basmi\Documents\GitHub\IID\COM350\TheatreBooking\TheatreBooking\obj\Deb
 C:\Users\csf16smb\Downloads\COM350\TheatreBooking\TheatreBooking\bin\Debug\TheatreBooking.exe.config
 C:\Users\csf16smb\Downloads\COM350\TheatreBooking\TheatreBooking\bin\Debug\TheatreBooking.exe
 C:\Users\csf16smb\Downloads\COM350\TheatreBooking\TheatreBooking\bin\Debug\TheatreBooking.pdb
-C:\Users\csf16smb\Downloads\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csprojResolveAssemblyReference.cache
 C:\Users\csf16smb\Downloads\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Booking.resources
 C:\Users\csf16smb\Downloads\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Cancel.resources
 C:\Users\csf16smb\Downloads\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.ConfirmedBooking.resources

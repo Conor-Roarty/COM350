@@ -34,5 +34,13 @@ namespace TheatreBooking
 
         }
         #endregion
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Welcome welcome = new Welcome();
+            welcome.Show();
+            this.Close();
+            timer1.Stop();
+        }
     }
 }
