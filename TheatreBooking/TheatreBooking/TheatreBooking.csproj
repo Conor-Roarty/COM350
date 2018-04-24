@@ -139,6 +139,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Screen.resx">
       <DependentUpon>Screen.cs</DependentUpon>
@@ -158,6 +159,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avengers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForceAwakens.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jumanji.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PulpFiction.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shapeofwater.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Room.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -53,6 +53,30 @@ namespace TheatreBooking
         private void cmbMovieBook_SelectedIndexChanged(object sender, EventArgs e)
         {
             label23.Text = cmbMovieBook.SelectedItem.ToString();
+            if (cmbMovieBook.SelectedIndex == 0)
+            {
+                pictureBox1.Image = Properties.Resources.ForceAwakens;
+            }
+            else if (cmbMovieBook.SelectedIndex == 1)
+            {
+                pictureBox1.Image = Properties.Resources.PulpFiction;
+            }
+            else if (cmbMovieBook.SelectedIndex == 2)
+            {
+                pictureBox1.Image = Properties.Resources.Jumanji;
+            }
+            else if (cmbMovieBook.SelectedIndex == 3)
+            {
+                pictureBox1.Image = Properties.Resources.The_Room;
+            }
+            else if (cmbMovieBook.SelectedIndex == 4)
+            {
+                pictureBox1.Image = Properties.Resources.Avengers;
+            }
+            else if (cmbMovieBook.SelectedIndex == 5)
+            {
+                pictureBox1.Image = Properties.Resources.shapeofwater;
+            }
         }
 
         private void cmbBookingTime_SelectedIndexChanged(object sender, EventArgs e)

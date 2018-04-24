@@ -368,7 +368,7 @@
             this.lblNumber.AutoSize = true;
             this.lblNumber.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumber.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblNumber.Location = new System.Drawing.Point(442, 152);
+            this.lblNumber.Location = new System.Drawing.Point(470, 115);
             this.lblNumber.Name = "lblNumber";
             this.lblNumber.Size = new System.Drawing.Size(52, 24);
             this.lblNumber.TabIndex = 29;
@@ -422,7 +422,7 @@
             this.lnkLblScreenDetails.Enabled = false;
             this.lnkLblScreenDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkLblScreenDetails.LinkColor = System.Drawing.Color.Cyan;
-            this.lnkLblScreenDetails.Location = new System.Drawing.Point(325, 186);
+            this.lnkLblScreenDetails.Location = new System.Drawing.Point(353, 149);
             this.lnkLblScreenDetails.Name = "lnkLblScreenDetails";
             this.lnkLblScreenDetails.Size = new System.Drawing.Size(150, 24);
             this.lnkLblScreenDetails.TabIndex = 10;
@@ -436,7 +436,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label25.Location = new System.Drawing.Point(324, 152);
+            this.label25.Location = new System.Drawing.Point(352, 115);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(111, 24);
             this.label25.TabIndex = 9;
@@ -447,7 +447,7 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label24.Location = new System.Drawing.Point(231, 152);
+            this.label24.Location = new System.Drawing.Point(259, 115);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(86, 24);
             this.label24.TabIndex = 8;
@@ -455,10 +455,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, 76);
+            this.pictureBox1.Location = new System.Drawing.Point(20, 65);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 218);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 290);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 

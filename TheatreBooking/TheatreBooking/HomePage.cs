@@ -26,28 +26,28 @@ namespace TheatreBooking
         {
             Booking book = new Booking();
             book.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnEvents_Click(object sender, EventArgs e)
         {
             Events ev = new Events();
             ev.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnListings_Click(object sender, EventArgs e)
         {
             Listing list = new Listing();
             list.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Cancel c = new Cancel();
             c.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -55,6 +55,7 @@ namespace TheatreBooking
             Welcome welcome = new Welcome();
             welcome.Show();
             this.Close();
+            timer1.Stop();
         }
     }
 }
