@@ -83,6 +83,16 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap buttons {
+            get {
+                object obj = ResourceManager.GetObject("buttons", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Classroom_Chair {
             get {
                 object obj = ResourceManager.GetObject("Classroom_Chair", resourceCulture);
