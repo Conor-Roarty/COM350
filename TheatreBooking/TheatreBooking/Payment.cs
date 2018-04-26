@@ -66,15 +66,6 @@ namespace TheatreBooking
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            Booking back = new Booking();
-            back.Show();
-            this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            ConfirmedBooking cb = new ConfirmedBooking();
-            cb.Show();
             this.Close();
         }
 
@@ -92,10 +83,16 @@ namespace TheatreBooking
             h.Show();
         }
 
-        private void btnCardHelp_Click_1(object sender, EventArgs e)
+        private void btnProceed_Click_1(object sender, EventArgs e)
         {
-            Help h = new Help();
-            h.Show();
+            ConfirmedBooking cb = new ConfirmedBooking();
+            cb.Show();
+            this.Close();
+        }
+
+        private void btnCancel_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

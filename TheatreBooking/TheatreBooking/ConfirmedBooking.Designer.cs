@@ -98,8 +98,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(704, 217);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Thank You For Booking With Lunar Cinemas\r\n\r\nYour Booking No: \r\n\r\nFull Booking Det" +
-    "ails WIll Be In The Confirmation Email\r\n\r\nWe Look Forward To Seeing You :)";
+            this.label2.Text = "Thank You For Booking With Lunar Cinemas\r\n\r\nYour Booking No: B001\r\n\r\nFull Booking" +
+    " Details WIll Be In The Confirmation Email\r\n\r\nWe Look Forward To Seeing You :)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // linkLabel1

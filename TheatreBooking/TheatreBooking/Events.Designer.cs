@@ -45,6 +45,7 @@
             this.btnEvent1 = new System.Windows.Forms.Button();
             this.lblDailyOffers = new System.Windows.Forms.Label();
             this.lblEvents = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.grpBoxEnterBooking.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +71,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Eras Demi ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(180, 421);
+            this.label1.Location = new System.Drawing.Point(180, 439);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(258, 33);
             this.label1.TabIndex = 33;
@@ -99,7 +100,7 @@
             this.btnEventsHelp.Size = new System.Drawing.Size(114, 90);
             this.btnEventsHelp.TabIndex = 36;
             this.btnEventsHelp.UseVisualStyleBackColor = false;
-            this.btnEventsHelp.Click += new System.EventHandler(this.btnEventsHelp_Click);
+            this.btnEventsHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnMondayOffer
             // 
@@ -235,7 +236,7 @@
             this.btnEvent2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEvent2.ForeColor = System.Drawing.Color.White;
             this.btnEvent2.Image = global::TheatreBooking.Properties.Resources.buttons;
-            this.btnEvent2.Location = new System.Drawing.Point(365, 463);
+            this.btnEvent2.Location = new System.Drawing.Point(365, 481);
             this.btnEvent2.Name = "btnEvent2";
             this.btnEvent2.Size = new System.Drawing.Size(200, 70);
             this.btnEvent2.TabIndex = 45;
@@ -250,7 +251,7 @@
             this.btnEvent1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEvent1.ForeColor = System.Drawing.Color.White;
             this.btnEvent1.Image = global::TheatreBooking.Properties.Resources.buttons;
-            this.btnEvent1.Location = new System.Drawing.Point(50, 463);
+            this.btnEvent1.Location = new System.Drawing.Point(50, 481);
             this.btnEvent1.Name = "btnEvent1";
             this.btnEvent1.Size = new System.Drawing.Size(200, 70);
             this.btnEvent1.TabIndex = 46;
@@ -282,6 +283,22 @@
             this.lblEvents.TabIndex = 45;
             this.lblEvents.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button1
+            // 
+            this.button1.Enabled = false;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::TheatreBooking.Properties.Resources.buttons;
+            this.button1.Location = new System.Drawing.Point(852, 478);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 70);
+            this.button1.TabIndex = 47;
+            this.button1.Text = "Use Offer";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Events
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -289,6 +306,7 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblEvents);
             this.Controls.Add(this.grpBoxEnterBooking);
             this.Controls.Add(this.btnEventsHelp);
@@ -322,5 +340,6 @@
         private System.Windows.Forms.Button btnEvent2;
         private System.Windows.Forms.Button btnEvent1;
         private System.Windows.Forms.Label lblEvents;
+        private System.Windows.Forms.Button button1;
     }
 }

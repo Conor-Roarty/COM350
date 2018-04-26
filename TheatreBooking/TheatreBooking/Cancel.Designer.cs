@@ -73,7 +73,7 @@
             label10.AutoSize = true;
             label10.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label10.Location = new System.Drawing.Point(25, 308);
+            label10.Location = new System.Drawing.Point(25, 390);
             label10.Name = "label10";
             label10.Size = new System.Drawing.Size(109, 24);
             label10.TabIndex = 29;
@@ -84,7 +84,7 @@
             lblSpecial.AutoSize = true;
             lblSpecial.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             lblSpecial.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            lblSpecial.Location = new System.Drawing.Point(22, 272);
+            lblSpecial.Location = new System.Drawing.Point(22, 344);
             lblSpecial.Name = "lblSpecial";
             lblSpecial.Size = new System.Drawing.Size(148, 24);
             lblSpecial.TabIndex = 16;
@@ -95,7 +95,7 @@
             label8.AutoSize = true;
             label8.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label8.Location = new System.Drawing.Point(22, 236);
+            label8.Location = new System.Drawing.Point(22, 299);
             label8.Name = "label8";
             label8.Size = new System.Drawing.Size(151, 24);
             label8.TabIndex = 22;
@@ -181,7 +181,7 @@
             this.lblNoOdTicks.AutoSize = true;
             this.lblNoOdTicks.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNoOdTicks.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblNoOdTicks.Location = new System.Drawing.Point(22, 120);
+            this.lblNoOdTicks.Location = new System.Drawing.Point(22, 154);
             this.lblNoOdTicks.Name = "lblNoOdTicks";
             this.lblNoOdTicks.Size = new System.Drawing.Size(149, 24);
             this.lblNoOdTicks.TabIndex = 3;
@@ -219,7 +219,7 @@
             this.lblBookMovie.AutoSize = true;
             this.lblBookMovie.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookMovie.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblBookMovie.Location = new System.Drawing.Point(22, 161);
+            this.lblBookMovie.Location = new System.Drawing.Point(22, 208);
             this.lblBookMovie.Name = "lblBookMovie";
             this.lblBookMovie.Size = new System.Drawing.Size(120, 24);
             this.lblBookMovie.TabIndex = 4;
@@ -248,6 +248,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(371, 32);
             this.txtName.TabIndex = 34;
+            this.txtName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtName_KeyDown);
             // 
             // label7
             // 
@@ -266,7 +267,7 @@
             this.btnCancelHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelHelp.BackgroundImage")));
             this.btnCancelHelp.FlatAppearance.BorderSize = 0;
             this.btnCancelHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancelHelp.Location = new System.Drawing.Point(1150, 585);
+            this.btnCancelHelp.Location = new System.Drawing.Point(1150, 592);
             this.btnCancelHelp.Name = "btnCancelHelp";
             this.btnCancelHelp.Size = new System.Drawing.Size(114, 90);
             this.btnCancelHelp.TabIndex = 39;
@@ -305,7 +306,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(22, 86);
+            this.label2.Location = new System.Drawing.Point(22, 97);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 24);
             this.label2.TabIndex = 28;
@@ -316,7 +317,7 @@
             this.lblBookingDate.AutoSize = true;
             this.lblBookingDate.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookingDate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblBookingDate.Location = new System.Drawing.Point(22, 198);
+            this.lblBookingDate.Location = new System.Drawing.Point(22, 252);
             this.lblBookingDate.Name = "lblBookingDate";
             this.lblBookingDate.Size = new System.Drawing.Size(204, 24);
             this.lblBookingDate.TabIndex = 6;
@@ -330,7 +331,7 @@
             this.btnCancelReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelReturn.ForeColor = System.Drawing.Color.White;
-            this.btnCancelReturn.Location = new System.Drawing.Point(0, 584);
+            this.btnCancelReturn.Location = new System.Drawing.Point(0, 591);
             this.btnCancelReturn.Name = "btnCancelReturn";
             this.btnCancelReturn.Size = new System.Drawing.Size(1150, 90);
             this.btnCancelReturn.TabIndex = 38;

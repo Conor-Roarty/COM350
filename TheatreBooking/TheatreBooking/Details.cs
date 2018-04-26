@@ -18,20 +18,15 @@ namespace TheatreBooking
         }
 
         #region Buttons
-        private void btnPayment_Click(object sender, EventArgs e)
-        {
-            Payment pay = new Payment();
-            pay.Show();
-            this.Close();//same again
-        }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtFullname.Clear();
             txtEmail.Clear();
             txtPostCode.Clear();
-            cmbAddress.Items.Clear();
+            cmbAddress.SelectedIndex = -1;
+            cmbAddress.Text = "";
             txtPhoneNo.Clear();
+            txtInfo.Clear();
         }
         private void btnDetailsReturn_Click(object sender, EventArgs e)
         {
@@ -47,10 +42,25 @@ namespace TheatreBooking
         }
         #endregion
 
-        private void btnDetailsHelp_Click_1(object sender, EventArgs e)
+        private void btnPayment_Click_1(object sender, EventArgs e)
         {
-            Help h = new Help();
-            h.Show();
+            Payment p = new Payment();
+            p.Show();
+        }
+
+        private void cmbAddress_Enter(object sender, EventArgs e)
+        {
+            if(txtPostCode.Text.ToLower() == "bt82 9qh")
+            {
+                for(int i = 0; i < 10; i++)
+                    cmbAddress.Items.Add(i+1 + " The Orchard");
+            }
+        }
+
+        private void txtFullname_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (!Char.IsLetter((char)e.KeyValue))
+                e.SuppressKeyPress = true;
         }
     }
 }

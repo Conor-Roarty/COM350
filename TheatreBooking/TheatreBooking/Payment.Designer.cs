@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Payment));
-            this.gbCardReader = new System.Windows.Forms.GroupBox();
-            this.label19 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnProceed = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -60,6 +58,7 @@
             this.btnCardHelp = new System.Windows.Forms.Button();
             this.btnBookingReturn = new System.Windows.Forms.Button();
             this.grpCashPayment = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -67,43 +66,22 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.gbArrival = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.gbCardReader.SuspendLayout();
+            this.label19 = new System.Windows.Forms.Label();
+            this.gbCardReader = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpCardDetails.SuspendLayout();
             this.grpPaymentType.SuspendLayout();
             this.grpCashPayment.SuspendLayout();
             this.gbArrival.SuspendLayout();
+            this.gbCardReader.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // gbCardReader
-            // 
-            this.gbCardReader.BackColor = System.Drawing.Color.Transparent;
-            this.gbCardReader.Controls.Add(this.label19);
-            this.gbCardReader.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbCardReader.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.gbCardReader.Location = new System.Drawing.Point(408, 7);
-            this.gbCardReader.Name = "gbCardReader";
-            this.gbCardReader.Size = new System.Drawing.Size(844, 525);
-            this.gbCardReader.TabIndex = 44;
-            this.gbCardReader.TabStop = false;
-            this.gbCardReader.Text = "Card Details";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label19.Location = new System.Drawing.Point(19, 61);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(816, 24);
-            this.label19.TabIndex = 3;
-            this.label19.Text = "Please insert your card and once complete you will be redriected to the next page" +
-    "";
             // 
             // btnCancel
             // 
@@ -119,6 +97,7 @@
             this.btnCancel.TabIndex = 37;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click_1);
             // 
             // btnProceed
             // 
@@ -133,6 +112,7 @@
             this.btnProceed.TabIndex = 36;
             this.btnProceed.Text = "Confirm Payment";
             this.btnProceed.UseVisualStyleBackColor = true;
+            this.btnProceed.Click += new System.EventHandler(this.btnProceed_Click_1);
             // 
             // label2
             // 
@@ -343,6 +323,7 @@
             this.rbCardEnter.TabIndex = 5;
             this.rbCardEnter.Text = "Insert Card";
             this.rbCardEnter.UseVisualStyleBackColor = true;
+            this.rbCardEnter.CheckedChanged += new System.EventHandler(this.rbCardEnter_CheckedChanged);
             // 
             // label3
             // 
@@ -364,6 +345,7 @@
             this.radBtnCOA.TabIndex = 2;
             this.radBtnCOA.Text = "Cash on Arrival";
             this.radBtnCOA.UseVisualStyleBackColor = true;
+            this.radBtnCOA.CheckedChanged += new System.EventHandler(this.radBtnCOA_CheckedChanged);
             // 
             // radBtnCash
             // 
@@ -374,6 +356,7 @@
             this.radBtnCash.TabIndex = 1;
             this.radBtnCash.Text = "Cash";
             this.radBtnCash.UseVisualStyleBackColor = true;
+            this.radBtnCash.CheckedChanged += new System.EventHandler(this.radBtnCash_CheckedChanged);
             // 
             // radBtnCard
             // 
@@ -386,18 +369,19 @@
             this.radBtnCard.TabStop = true;
             this.radBtnCard.Text = "Card";
             this.radBtnCard.UseVisualStyleBackColor = true;
+            this.radBtnCard.CheckedChanged += new System.EventHandler(this.radBtnCard_CheckedChanged);
             // 
             // btnCardHelp
             // 
             this.btnCardHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCardHelp.BackgroundImage")));
             this.btnCardHelp.FlatAppearance.BorderSize = 0;
             this.btnCardHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCardHelp.Location = new System.Drawing.Point(1150, 585);
+            this.btnCardHelp.Location = new System.Drawing.Point(1150, 592);
             this.btnCardHelp.Name = "btnCardHelp";
             this.btnCardHelp.Size = new System.Drawing.Size(114, 90);
             this.btnCardHelp.TabIndex = 39;
             this.btnCardHelp.UseVisualStyleBackColor = true;
-            this.btnCardHelp.Click += new System.EventHandler(this.btnCardHelp_Click_1);
+            this.btnCardHelp.Click += new System.EventHandler(this.btnCardHelp_Click);
             // 
             // btnBookingReturn
             // 
@@ -407,16 +391,18 @@
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookingReturn.ForeColor = System.Drawing.Color.White;
-            this.btnBookingReturn.Location = new System.Drawing.Point(0, 584);
+            this.btnBookingReturn.Location = new System.Drawing.Point(0, 591);
             this.btnBookingReturn.Name = "btnBookingReturn";
             this.btnBookingReturn.Size = new System.Drawing.Size(1150, 90);
             this.btnBookingReturn.TabIndex = 38;
             this.btnBookingReturn.Text = "Home";
             this.btnBookingReturn.UseVisualStyleBackColor = false;
+            this.btnBookingReturn.Click += new System.EventHandler(this.btnBookingReturn_Click);
             // 
             // grpCashPayment
             // 
             this.grpCashPayment.BackColor = System.Drawing.Color.Transparent;
+            this.grpCashPayment.Controls.Add(this.button3);
             this.grpCashPayment.Controls.Add(this.label12);
             this.grpCashPayment.Controls.Add(this.label8);
             this.grpCashPayment.Controls.Add(this.label11);
@@ -430,6 +416,22 @@
             this.grpCashPayment.TabIndex = 41;
             this.grpCashPayment.TabStop = false;
             this.grpCashPayment.Text = "Cash Payment";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Firebrick;
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(669, 417);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(162, 74);
+            this.button3.TabIndex = 38;
+            this.button3.Text = "Cancel";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // label12
             // 
@@ -491,6 +493,7 @@
             // gbArrival
             // 
             this.gbArrival.BackColor = System.Drawing.Color.Transparent;
+            this.gbArrival.Controls.Add(this.button4);
             this.gbArrival.Controls.Add(this.button1);
             this.gbArrival.Controls.Add(this.label23);
             this.gbArrival.Controls.Add(this.label24);
@@ -506,6 +509,22 @@
             this.gbArrival.TabStop = false;
             this.gbArrival.Text = "Cash Payment";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Firebrick;
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(670, 417);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(162, 74);
+            this.button4.TabIndex = 38;
+            this.button4.Text = "Cancel";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
             // button1
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
@@ -513,12 +532,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(656, 414);
+            this.button1.Location = new System.Drawing.Point(489, 417);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 74);
             this.button1.TabIndex = 37;
             this.button1.Text = "Continue";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnProceed_Click_1);
             // 
             // label23
             // 
@@ -559,6 +579,48 @@
             this.label26.TabIndex = 3;
             this.label26.Text = "Remaining Amount: ";
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label19.Location = new System.Drawing.Point(19, 61);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(816, 24);
+            this.label19.TabIndex = 3;
+            this.label19.Text = "Please insert your card and once complete you will be redriected to the next page" +
+    "";
+            // 
+            // gbCardReader
+            // 
+            this.gbCardReader.BackColor = System.Drawing.Color.Transparent;
+            this.gbCardReader.Controls.Add(this.button2);
+            this.gbCardReader.Controls.Add(this.label19);
+            this.gbCardReader.Font = new System.Drawing.Font("Eras Demi ITC", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbCardReader.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.gbCardReader.Location = new System.Drawing.Point(408, 7);
+            this.gbCardReader.Name = "gbCardReader";
+            this.gbCardReader.Size = new System.Drawing.Size(844, 525);
+            this.gbCardReader.TabIndex = 44;
+            this.gbCardReader.TabStop = false;
+            this.gbCardReader.Text = "Card Details";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Firebrick;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(657, 417);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(162, 74);
+            this.button2.TabIndex = 38;
+            this.button2.Text = "Cancel";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
             // Payment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -566,20 +628,17 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.gbArrival);
+            this.Controls.Add(this.grpCashPayment);
             this.Controls.Add(this.gbCardReader);
             this.Controls.Add(this.grpCardDetails);
             this.Controls.Add(this.grpPaymentType);
             this.Controls.Add(this.btnCardHelp);
             this.Controls.Add(this.btnBookingReturn);
-            this.Controls.Add(this.grpCashPayment);
-            this.Controls.Add(this.gbArrival);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Payment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Payment";
             this.Load += new System.EventHandler(this.Payment_Load);
-            this.gbCardReader.ResumeLayout(false);
-            this.gbCardReader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpCardDetails.ResumeLayout(false);
             this.grpCardDetails.PerformLayout();
@@ -589,14 +648,13 @@
             this.grpCashPayment.PerformLayout();
             this.gbArrival.ResumeLayout(false);
             this.gbArrival.PerformLayout();
+            this.gbCardReader.ResumeLayout(false);
+            this.gbCardReader.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox gbCardReader;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnProceed;
         private System.Windows.Forms.Label label2;
@@ -638,5 +696,10 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.GroupBox gbCardReader;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button2;
     }
 }

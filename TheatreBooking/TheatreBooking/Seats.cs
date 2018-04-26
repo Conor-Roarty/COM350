@@ -447,12 +447,7 @@ namespace TheatreBooking
 
         private void pictureBox38_Click(object sender, EventArgs e)
         {
-            count++;
-            if (count <= num)
-            {
-                pictureBox38.Image = null;
-                pictureBox38.Image = Properties.Resources.red_x_icon_th;
-            }
+
         }
         private void pictureBox49_Click(object sender, EventArgs e)
         {
@@ -540,7 +535,6 @@ namespace TheatreBooking
             s.Show();
             this.Close();
         }
-
         private void btnCancelHelp_Click(object sender, EventArgs e)
         {
             Help h = new Help();

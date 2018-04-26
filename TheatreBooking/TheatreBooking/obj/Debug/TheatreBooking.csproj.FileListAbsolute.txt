@@ -95,3 +95,24 @@ C:\Users\basmi\Downloads\COM350Final\COM350\TheatreBooking\TheatreBooking\obj\De
 C:\Users\basmi\Downloads\COM350Final\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csproj.CoreCompileInputs.cache
 C:\Users\basmi\Downloads\COM350Final\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.exe
 C:\Users\basmi\Downloads\COM350Final\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.pdb
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\bin\Debug\TheatreBooking.exe.config
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\bin\Debug\TheatreBooking.exe
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\bin\Debug\TheatreBooking.pdb
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csprojResolveAssemblyReference.cache
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Booking.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Cancel.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.ConfirmedBooking.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Details.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Events.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Help.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.TheatreBooking.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Listing.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Payment.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Properties.Resources.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Screen.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Seats.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.Welcome.resources
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csproj.GenerateResource.Cache
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.csproj.CoreCompileInputs.cache
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.exe
+E:\COM350\Final, Final finale\COM350\TheatreBooking\TheatreBooking\obj\Debug\TheatreBooking.pdb

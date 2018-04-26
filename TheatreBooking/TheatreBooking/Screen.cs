@@ -17,10 +17,9 @@ namespace TheatreBooking
             InitializeComponent();
         }
 
-        private void btnBookingReturn_Click(object sender, EventArgs e)
+        private void btnBookingReturn_Click_1(object sender, EventArgs e)
         {
             this.Close();
-            
         }
     }
 }
