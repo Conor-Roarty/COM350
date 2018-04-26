@@ -123,7 +123,7 @@
             this.Controls.Add(this.btnListings);
             this.Controls.Add(this.btnEvents);
             this.Controls.Add(this.btnBooking);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1280, 720);
             this.Name = "TheatreBooking";

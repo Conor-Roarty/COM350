@@ -294,6 +294,7 @@
             this.Controls.Add(this.btnEventsHelp);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnEventsReturn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Events";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Events";

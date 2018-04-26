@@ -573,6 +573,7 @@
             this.Controls.Add(this.btnBookingReturn);
             this.Controls.Add(this.grpCashPayment);
             this.Controls.Add(this.gbArrival);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Payment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Payment";

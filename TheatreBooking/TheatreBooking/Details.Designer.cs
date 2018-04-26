@@ -366,6 +366,7 @@
             this.Controls.Add(this.btnDetailsHelp);
             this.Controls.Add(this.btnDetailsReturn);
             this.Controls.Add(this.grpDetails);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Details";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Details";

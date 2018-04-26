@@ -57,5 +57,6 @@ namespace TheatreBooking
             this.Close();
             timer1.Stop();
         }
+
     }
 }

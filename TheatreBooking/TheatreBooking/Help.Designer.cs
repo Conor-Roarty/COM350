@@ -84,6 +84,7 @@
             this.Controls.Add(this.btnBookingReturn);
             this.Controls.Add(this.lblHelpTitle);
             this.Controls.Add(this.lblHelpInfo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Help";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Help";

@@ -1126,6 +1126,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCancelHelp);
             this.Controls.Add(this.btnCancelReturn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Seats";
             this.Text = "Seats";
             this.gbEnterBookingDets.ResumeLayout(false);

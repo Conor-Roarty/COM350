@@ -272,6 +272,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnBookingReturn);
             this.Controls.Add(this.btnBookingHelp);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Listing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
