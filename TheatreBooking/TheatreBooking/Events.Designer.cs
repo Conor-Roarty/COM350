@@ -99,6 +99,7 @@
             this.btnEventsHelp.Size = new System.Drawing.Size(114, 90);
             this.btnEventsHelp.TabIndex = 36;
             this.btnEventsHelp.UseVisualStyleBackColor = false;
+            this.btnEventsHelp.Click += new System.EventHandler(this.btnEventsHelp_Click);
             // 
             // btnMondayOffer
             // 

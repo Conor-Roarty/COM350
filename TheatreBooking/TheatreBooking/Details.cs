@@ -46,5 +46,11 @@ namespace TheatreBooking
             h.Show();
         }
         #endregion
+
+        private void btnDetailsHelp_Click_1(object sender, EventArgs e)
+        {
+            Help h = new Help();
+            h.Show();
+        }
     }
 }

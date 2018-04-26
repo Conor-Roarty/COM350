@@ -12,6 +12,9 @@ namespace TheatreBooking
 {
     public partial class Booking : Form
     {
+        #region Initializations
+
+        //Initializing Certain UI elements
         public Booking()
         {
             InitializeComponent();
@@ -27,8 +30,18 @@ namespace TheatreBooking
         {
 
         }
+        #endregion
 
         #region Buttons
+
+        //Button to go to screen Details
+        private void btnScreenDets_Click(object sender, EventArgs e)
+        {
+            Screen s = new Screen();
+            s.Show();
+        }
+        
+        //Button to return to homepage
         private void btnBookingReturn_Click(object sender, EventArgs e)
         {
             TheatreBooking theatre = new TheatreBooking();
@@ -36,12 +49,14 @@ namespace TheatreBooking
             this.Close();
         }
 
+        //Button to proceed to details page
         private void btnProceed_Click(object sender, EventArgs e)
         {
-            //change to deatils page so we have details for ticket printing, payment to come last
+            //Change to details page so we have details for ticket printing, payment to come last
             int parse;
             bool valid = true;
 
+            //Validation Checker for various fields
             if (!int.TryParse(txtNoOfTicketsBooking.Text, out parse))
             {
                 epNoOfTickets.SetError(txtNoOfTicketsBooking, "Only Valid Numbers Can Be Entered");
@@ -80,6 +95,7 @@ namespace TheatreBooking
             }
         }
 
+        //Clear the current fields
         private void btnCancel_Click(object sender, EventArgs e)
         {
             txtNoOfTicketsBooking.Clear();
@@ -89,9 +105,17 @@ namespace TheatreBooking
             radBtnNoWheelchair.Checked = true;
             radBtnYesWheelchair.Checked = false;
         }
+
+        private void btnBookingHelp_Click(object sender, EventArgs e)
+        {
+            Help h = new Help();
+            h.Show();
+        }
         #endregion
 
         #region ComboBoxes
+
+        //If statement checks which movie is selected by index value and displays appropriate poster
         private void cmbMovieBook_SelectedIndexChanged(object sender, EventArgs e)
         {
             label23.Text = cmbMovieBook.SelectedItem.ToString();
@@ -137,6 +161,8 @@ namespace TheatreBooking
         #endregion
 
         #region OtherControls
+
+
         private void dtpBookingDate_ValueChanged(object sender, EventArgs e)
         {//usually search db for actual screen and IF FOUND set to that value but here just set to random number
             if (cmbBookingTime.SelectedIndex != -1)
@@ -152,14 +178,6 @@ namespace TheatreBooking
         }
 
 
-        #endregion
-
-        private void btnScreenDets_Click(object sender, EventArgs e)
-        {
-            Screen s = new Screen();
-            s.Show();
-        }
-
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
@@ -172,5 +190,9 @@ namespace TheatreBooking
                 MessageBox.Show("Please Esnure You Have Entered A Valid Number Of Tickets Before Selecting Seat(s)");
             }
         }
+
+        #endregion
+
+
     }
 }

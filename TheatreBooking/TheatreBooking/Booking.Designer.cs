@@ -290,12 +290,12 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel1.Location = new System.Drawing.Point(230, 369);
+            this.linkLabel1.Location = new System.Drawing.Point(230, 345);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(267, 24);
+            this.linkLabel1.Size = new System.Drawing.Size(267, 72);
             this.linkLabel1.TabIndex = 23;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Touch Here To Select Seat";
+            this.linkLabel1.Text = "\r\nTouch Here To Select Seat\r\n\r\n";
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Cyan;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
@@ -363,6 +363,7 @@
             this.btnBookingHelp.Size = new System.Drawing.Size(114, 90);
             this.btnBookingHelp.TabIndex = 21;
             this.btnBookingHelp.UseVisualStyleBackColor = false;
+            this.btnBookingHelp.Click += new System.EventHandler(this.btnBookingHelp_Click);
             // 
             // grpBoxConfirmation
             // 

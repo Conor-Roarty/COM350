@@ -85,6 +85,7 @@
             this.Controls.Add(this.lblHelpTitle);
             this.Controls.Add(this.lblHelpInfo);
             this.Name = "Help";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Help";
             this.ResumeLayout(false);
             this.PerformLayout();

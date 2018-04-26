@@ -397,6 +397,7 @@
             this.btnCardHelp.Size = new System.Drawing.Size(114, 90);
             this.btnCardHelp.TabIndex = 39;
             this.btnCardHelp.UseVisualStyleBackColor = true;
+            this.btnCardHelp.Click += new System.EventHandler(this.btnCardHelp_Click_1);
             // 
             // btnBookingReturn
             // 

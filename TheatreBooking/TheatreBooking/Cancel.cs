@@ -78,6 +78,7 @@ namespace TheatreBooking
             h.Show();
         }
         #endregion
+
         private void txtName_KeyDown(object sender, KeyEventArgs e)
         {
             if (!Char.IsLetter((char)e.KeyValue))

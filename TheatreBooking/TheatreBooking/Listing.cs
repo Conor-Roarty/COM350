@@ -27,7 +27,8 @@ namespace TheatreBooking
 
         private void btnBookingHelp_Click(object sender, EventArgs e)
         {
-
+            Help h = new Help();
+            h.Show();
         }
         #endregion
     }

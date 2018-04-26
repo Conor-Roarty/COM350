@@ -102,6 +102,7 @@
             this.btnDetailsHelp.Size = new System.Drawing.Size(114, 90);
             this.btnDetailsHelp.TabIndex = 27;
             this.btnDetailsHelp.UseVisualStyleBackColor = true;
+            this.btnDetailsHelp.Click += new System.EventHandler(this.btnDetailsHelp_Click_1);
             // 
             // btnDetailsReturn
             // 

@@ -67,5 +67,11 @@ namespace TheatreBooking
         {
             lblEvents.Text = "Infinity War Prep(20th - 25th June 2018):\n Watch Our Shortened Movie Matinee Of\n All Important Marvel Moments Before The\n Release Of Infinity War and Get a Free Infinity\n War Ticket When You Buy NOW";
         }
+
+        private void btnEventsHelp_Click(object sender, EventArgs e)
+        {
+            Help h = new Help();
+            h.Show();
+        }
     }
 }
