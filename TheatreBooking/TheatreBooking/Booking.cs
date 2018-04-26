@@ -172,5 +172,17 @@ namespace TheatreBooking
                 MessageBox.Show("Please Esnure You Have Entered A Valid Number Of Tickets Before Selecting Seat(s)");
             }
         }
+
+        private void txtNoOfTicketsBooking_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (!Char.IsDigit((char)e.KeyValue))
+                e.SuppressKeyPress = true;
+        }
+
+        private void btnBookingHelp_Click(object sender, EventArgs e)
+        {
+            Help h = new Help();
+            h.Show();
+        }
     }
 }

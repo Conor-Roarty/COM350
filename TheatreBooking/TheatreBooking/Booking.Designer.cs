@@ -138,6 +138,7 @@
             this.txtNoOfTicketsBooking.Name = "txtNoOfTicketsBooking";
             this.txtNoOfTicketsBooking.Size = new System.Drawing.Size(330, 39);
             this.txtNoOfTicketsBooking.TabIndex = 2;
+            this.txtNoOfTicketsBooking.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNoOfTicketsBooking_KeyDown);
             // 
             // lblNoOdTicks
             // 
@@ -314,6 +315,7 @@
             // radBtnNoWheelchair
             // 
             this.radBtnNoWheelchair.AutoSize = true;
+            this.radBtnNoWheelchair.Checked = true;
             this.radBtnNoWheelchair.Font = new System.Drawing.Font("Eras Demi ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radBtnNoWheelchair.Location = new System.Drawing.Point(234, 173);
             this.radBtnNoWheelchair.Name = "radBtnNoWheelchair";
@@ -363,6 +365,7 @@
             this.btnBookingHelp.Size = new System.Drawing.Size(114, 90);
             this.btnBookingHelp.TabIndex = 21;
             this.btnBookingHelp.UseVisualStyleBackColor = false;
+            this.btnBookingHelp.Click += new System.EventHandler(this.btnBookingHelp_Click);
             // 
             // grpBoxConfirmation
             // 

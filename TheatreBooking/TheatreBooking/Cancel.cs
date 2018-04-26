@@ -47,6 +47,7 @@ namespace TheatreBooking
             txtBookingNo.Clear();
             txtEmail.Clear();
             txtName.Clear();
+            lblInfo.Text = "";
             cmbMovieTitle.Items.Clear();
             cmbBookingTime.Items.Clear();
             btnWrongDetails.Enabled = false;
@@ -61,7 +62,7 @@ namespace TheatreBooking
                 if (dialogResult == DialogResult.Yes)
                 {
                     MessageBox.Show("Please take your money. Have a nice day.");
-                    this.Close();
+                    btnBookingReturn_Click(sender, e);
                 }
             }
             else

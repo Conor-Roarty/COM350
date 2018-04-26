@@ -24,14 +24,20 @@ namespace TheatreBooking
 
         private void btnConfirmedReturn_Click(object sender, EventArgs e)
         {
-            TheatreBooking theatre = new TheatreBooking();
-            theatre.Show();
-            this.Close();
+            Welcome welcome = new Welcome();
+            welcome.Show();
+            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)
+            {
+                if (Application.OpenForms[i].Name != "Welcome")
+                    Application.OpenForms[i].Close();
+            }
+            timer1.Stop();
         }
 
         private void btnConfirmedHelp_Click(object sender, EventArgs e)
         {
-
+            Help h = new Help();
+            h.Show();
         }
         #endregion
 
@@ -39,7 +45,11 @@ namespace TheatreBooking
         {
             Welcome welcome = new Welcome();
             welcome.Show();
-            this.Close();
+            for (int i = Application.OpenForms.Count -1; i >= 0; i--)
+            {
+                if (Application.OpenForms[i].Name != "Welcome")
+                    Application.OpenForms[i].Close();
+            }
             timer1.Stop();
         }
     }
