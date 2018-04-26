@@ -365,7 +365,7 @@
             this.btnBookingHelp.Size = new System.Drawing.Size(114, 90);
             this.btnBookingHelp.TabIndex = 21;
             this.btnBookingHelp.UseVisualStyleBackColor = false;
-            this.btnBookingHelp.Click += new System.EventHandler(this.btnBookingHelp_Click);
+            this.btnBookingHelp.Click += new System.EventHandler(this.btnBookingHelp_Click_1);
             // 
             // grpBoxConfirmation
             // 

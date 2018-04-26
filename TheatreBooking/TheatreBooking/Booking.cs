@@ -197,10 +197,11 @@ namespace TheatreBooking
                 e.SuppressKeyPress = true;
         }
 
-        private void btnBookingHelp_Click(object sender, EventArgs e)
+        private void btnBookingHelp_Click_1(object sender, EventArgs e)
         {
-            Help h = new Help();
-            h.Show();
+                Help h = new Help();
+                h.Show();
         }
     }
 }
+#endregion
