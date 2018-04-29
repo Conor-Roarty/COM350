@@ -121,8 +121,7 @@
             // 
             this.cmbMovieBook.FormattingEnabled = true;
             this.cmbMovieBook.Items.AddRange(new object[] {
-            "Select A Movie",
-            "Star Wars: The Force Awakens",
+            "------- Select A Movie -------",
             "Pulp Fiction",
             "Jumanji",
             "The Room",
@@ -130,15 +129,17 @@
             "The Shape of Water"});
             this.cmbMovieBook.Location = new System.Drawing.Point(234, 118);
             this.cmbMovieBook.Name = "cmbMovieBook";
-            this.cmbMovieBook.Size = new System.Drawing.Size(330, 39);
+            this.cmbMovieBook.Size = new System.Drawing.Size(356, 39);
             this.cmbMovieBook.TabIndex = 1;
+            this.cmbMovieBook.Text = "--------Select A Movie--------";
             this.cmbMovieBook.SelectedIndexChanged += new System.EventHandler(this.cmbMovieBook_SelectedIndexChanged);
+            this.cmbMovieBook.Click += new System.EventHandler(this.cmbMovieBook_Click);
             // 
             // txtNoOfTicketsBooking
             // 
             this.txtNoOfTicketsBooking.Location = new System.Drawing.Point(234, 56);
             this.txtNoOfTicketsBooking.Name = "txtNoOfTicketsBooking";
-            this.txtNoOfTicketsBooking.Size = new System.Drawing.Size(330, 39);
+            this.txtNoOfTicketsBooking.Size = new System.Drawing.Size(356, 39);
             this.txtNoOfTicketsBooking.TabIndex = 2;
             this.txtNoOfTicketsBooking.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNoOfTicketsBooking_KeyDown);
             // 
@@ -190,8 +191,7 @@
             // 
             this.cmbBookingTime.FormattingEnabled = true;
             this.cmbBookingTime.Items.AddRange(new object[] {
-            "Select A Time",
-            "11:00 am",
+            "--------Select A Time--------",
             "12:30 pm",
             "2:00 pm",
             "4:00 pm",
@@ -201,15 +201,17 @@
             "12:00 am"});
             this.cmbBookingTime.Location = new System.Drawing.Point(234, 291);
             this.cmbBookingTime.Name = "cmbBookingTime";
-            this.cmbBookingTime.Size = new System.Drawing.Size(330, 39);
+            this.cmbBookingTime.Size = new System.Drawing.Size(356, 39);
             this.cmbBookingTime.TabIndex = 7;
+            this.cmbBookingTime.Text = "--------Select A Time--------";
             this.cmbBookingTime.SelectedIndexChanged += new System.EventHandler(this.cmbBookingTime_SelectedIndexChanged);
+            this.cmbBookingTime.Click += new System.EventHandler(this.cmbBookingTime_Click);
             // 
             // dtpBookingDate
             // 
             this.dtpBookingDate.Location = new System.Drawing.Point(234, 224);
             this.dtpBookingDate.Name = "dtpBookingDate";
-            this.dtpBookingDate.Size = new System.Drawing.Size(330, 39);
+            this.dtpBookingDate.Size = new System.Drawing.Size(356, 39);
             this.dtpBookingDate.TabIndex = 9;
             // 
             // label1
@@ -353,7 +355,7 @@
             // 
             this.txtOtherReqs.Location = new System.Drawing.Point(234, 424);
             this.txtOtherReqs.Name = "txtOtherReqs";
-            this.txtOtherReqs.Size = new System.Drawing.Size(330, 39);
+            this.txtOtherReqs.Size = new System.Drawing.Size(356, 39);
             this.txtOtherReqs.TabIndex = 15;
             // 
             // btnBookingHelp

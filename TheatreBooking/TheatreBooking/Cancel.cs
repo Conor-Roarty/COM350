@@ -48,8 +48,8 @@ namespace TheatreBooking
             txtEmail.Clear();
             txtName.Clear();
             lblInfo.Text = "";
-            cmbMovieTitle.Items.Clear();
-            cmbBookingTime.Items.Clear();
+            cmbMovieTitle.SelectedIndex = -1;
+            cmbBookingTime.SelectedIndex = -1;
             btnWrongDetails.Enabled = false;
             btnCancelBooking.Enabled = false;
         }

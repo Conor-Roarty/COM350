@@ -105,6 +105,13 @@
             // 
             this.cmbMovieTitle.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMovieTitle.FormattingEnabled = true;
+            this.cmbMovieTitle.Items.AddRange(new object[] {
+            "Star Wars: The Force Awakens",
+            "Pulp Fiction",
+            "Jumanji",
+            "The Room",
+            "Avengers: Infinity War",
+            "The Shape Of Water"});
             this.cmbMovieTitle.Location = new System.Drawing.Point(221, 299);
             this.cmbMovieTitle.Name = "cmbMovieTitle";
             this.cmbMovieTitle.Size = new System.Drawing.Size(372, 32);
@@ -136,6 +143,15 @@
             // 
             this.cmbBookingTime.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBookingTime.FormattingEnabled = true;
+            this.cmbBookingTime.Items.AddRange(new object[] {
+            "11:00 am",
+            "12:30 pm",
+            "2:00 pm",
+            "4:00 pm",
+            "6:00 pm",
+            "8:00 pm",
+            "10:00 pm",
+            "12:00 am"});
             this.cmbBookingTime.Location = new System.Drawing.Point(221, 391);
             this.cmbBookingTime.Name = "cmbBookingTime";
             this.cmbBookingTime.Size = new System.Drawing.Size(372, 32);
@@ -156,6 +172,7 @@
             // 
             this.btnWrongDetails.BackColor = System.Drawing.Color.Transparent;
             this.btnWrongDetails.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWrongDetails.BackgroundImage")));
+            this.btnWrongDetails.Enabled = false;
             this.btnWrongDetails.FlatAppearance.BorderSize = 0;
             this.btnWrongDetails.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnWrongDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -278,6 +295,7 @@
             // 
             this.btnCancelBooking.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelBooking.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelBooking.BackgroundImage")));
+            this.btnCancelBooking.Enabled = false;
             this.btnCancelBooking.FlatAppearance.BorderSize = 0;
             this.btnCancelBooking.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelBooking.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

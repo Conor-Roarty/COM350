@@ -24,6 +24,7 @@ namespace TheatreBooking
             txtEmail.Clear();
             txtPostCode.Clear();
             cmbAddress.SelectedIndex = -1;
+            cmbAddress.Items.Clear();
             cmbAddress.Text = "";
             txtPhoneNo.Clear();
             txtInfo.Clear();

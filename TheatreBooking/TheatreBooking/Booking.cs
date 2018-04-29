@@ -13,7 +13,7 @@ namespace TheatreBooking
     public partial class Booking : Form
     {
         #region Initializations
-
+        int count;
         //Initializing Certain UI elements
         public Booking()
         {
@@ -26,6 +26,7 @@ namespace TheatreBooking
             cmbMovieBook.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbBookingTime.SelectedIndex = 0;
             cmbMovieBook.SelectedIndex = 0;
+            count = 0;
         }
 
         private void Booking_Load(object sender, EventArgs e)
@@ -72,7 +73,7 @@ namespace TheatreBooking
             else
                 epNoOfTickets.Clear();
 
-            if (cmbBookingTime.SelectedIndex == -1 || cmbBookingTime.SelectedIndex == 0)
+            if (cmbBookingTime.Text == "--------Select A Time--------")
             {
                 epTime.SetError(cmbBookingTime, "This Is A Required Field");
                 valid = false;
@@ -80,12 +81,13 @@ namespace TheatreBooking
             else
                 epTime.Clear();
 
-            if (cmbMovieBook.SelectedIndex == -1 || cmbMovieBook.SelectedIndex == 0)
+            if (cmbMovieBook.Text== "------- Select A Movie -------")
             {
                 epMovie.SetError(cmbMovieBook, "This Is A Required Field");
                 valid = false;
             }
-            epMovie.Clear();
+            else
+                epMovie.Clear();
 
             if (valid)
             {
@@ -100,10 +102,22 @@ namespace TheatreBooking
         {
             txtNoOfTicketsBooking.Clear();
             txtOtherReqs.Clear();
+
+            cmbBookingTime.Items.RemoveAt(0);
+            cmbBookingTime.Items.Insert(0, "--------Select A Time--------");
             cmbBookingTime.SelectedIndex = 0;
+
+            cmbMovieBook.Items.RemoveAt(0);
+            cmbMovieBook.Items.Insert(0, "------- Select A Movie -------");
             cmbMovieBook.SelectedIndex = 0;
+            count =0;
+
             radBtnNoWheelchair.Checked = true;
             radBtnYesWheelchair.Checked = false;
+
+            pictureBox1.Image = null;
+            lblNumber.Text = "N/A";
+            btnScreenDets.Enabled = false;
         }
 
         private void btnBookingHelp_Click(object sender, EventArgs e)
@@ -120,40 +134,42 @@ namespace TheatreBooking
         {
             label23.Text = cmbMovieBook.SelectedItem.ToString();
 
-            if (cmbMovieBook.SelectedIndex != 0 && cmbBookingTime.SelectedIndex != 0)
+            if (cmbMovieBook.Text != "------- Select A Movie -------" && cmbBookingTime.Text != "--------Select A Time--------")
             {
                 btnScreenDets.Enabled = true;
                 lblNumber.Text = "12";
             }
-            else if (cmbMovieBook.SelectedIndex == 1)
+            if (cmbMovieBook.SelectedIndex == 0 && cmbMovieBook.Text != "------- Select A Movie -------")
             {
                 pictureBox1.Image = Properties.Resources.ForceAwakens;
             }
-            else if (cmbMovieBook.SelectedIndex == 2)
+            else if (cmbMovieBook.SelectedIndex == 1)
             {
                 pictureBox1.Image = Properties.Resources.PulpFiction;
             }
-            else if (cmbMovieBook.SelectedIndex == 3)
+            else if (cmbMovieBook.SelectedIndex == 2)
             {
                 pictureBox1.Image = Properties.Resources.Jumanji;
             }
-            else if (cmbMovieBook.SelectedIndex == 4)
+            else if (cmbMovieBook.SelectedIndex == 3)
             {
                 pictureBox1.Image = Properties.Resources.The_Room;
             }
-            else if (cmbMovieBook.SelectedIndex == 5)
+            else if (cmbMovieBook.SelectedIndex == 4)
             {
                 pictureBox1.Image = Properties.Resources.Avengers;
             }
-            else if (cmbMovieBook.SelectedIndex == 6)
+            else if (cmbMovieBook.SelectedIndex == 5)
             {
                 pictureBox1.Image = Properties.Resources.shapeofwater;
             }
+           
         }
 
         private void cmbBookingTime_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmbMovieBook.SelectedIndex != 0 && cmbBookingTime.SelectedIndex != 0)
+
+            if (cmbMovieBook.Text != "------- Select A Movie -------" && cmbBookingTime.Text != "--------Select A Time--------")
             {
                 btnScreenDets.Enabled = true;
                 lblNumber.Text = "12";
@@ -172,13 +188,13 @@ namespace TheatreBooking
             }
             catch (Exception)
             {
-                MessageBox.Show("Please Esnure You Have Entered A Valid Number Of Tickets Before Selecting Seat(s)");
+                MessageBox.Show("Please Ensure You Have Entered A Valid Number Of Tickets Before Selecting Seat(s)");
             }
         }
 
         private void txtNoOfTicketsBooking_KeyDown(object sender, KeyEventArgs e)
         {
-            if (!Char.IsDigit((char)e.KeyValue))
+            if (!Char.IsDigit((char)e.KeyValue) && e.KeyCode != Keys.Delete && e.KeyCode != Keys.Back)
                 e.SuppressKeyPress = true;
         }
 
@@ -188,5 +204,23 @@ namespace TheatreBooking
             h.Show();
         }
         #endregion
+
+        private void cmbMovieBook_Click(object sender, EventArgs e)
+        {
+            if (count == 0)
+            {
+                cmbMovieBook.Items.RemoveAt(0);
+                cmbMovieBook.Items.Insert(0, "Star Wars: The Force Awakens");
+                cmbMovieBook.SelectedIndex = 0;
+                count++;
+            }
+        }
+
+        private void cmbBookingTime_Click(object sender, EventArgs e)
+        {
+            cmbBookingTime.Items.RemoveAt(0);
+            cmbBookingTime.Items.Insert(0, "11:00am");
+            cmbBookingTime.SelectedIndex = 0;
+        }
     }
 }

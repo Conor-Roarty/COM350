@@ -166,9 +166,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(465, 170);
             this.textBox1.TabIndex = 44;
-            this.textBox1.Text = "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a " +
-    "new threat from the evil Kylo Ren and his army of Stormtroopers.\r\n\r\n\r\nRating: 12" +
-    "A\r\n\r\nRuntime: 2h 16m";
+            this.textBox1.Text = resources.GetString("textBox1.Text");
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2

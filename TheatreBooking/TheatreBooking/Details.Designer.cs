@@ -65,7 +65,7 @@
             this.txtInfo.Multiline = true;
             this.txtInfo.Name = "txtInfo";
             this.txtInfo.Size = new System.Drawing.Size(554, 445);
-            this.txtInfo.TabIndex = 0;
+            this.txtInfo.TabIndex = 6;
             // 
             // grpInformation
             // 
@@ -126,14 +126,14 @@
             this.txtPhoneNo.Location = new System.Drawing.Point(202, 302);
             this.txtPhoneNo.Name = "txtPhoneNo";
             this.txtPhoneNo.Size = new System.Drawing.Size(330, 39);
-            this.txtPhoneNo.TabIndex = 29;
+            this.txtPhoneNo.TabIndex = 5;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(202, 245);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(330, 39);
-            this.txtEmail.TabIndex = 26;
+            this.txtEmail.TabIndex = 4;
             // 
             // label20
             // 
@@ -142,10 +142,10 @@
             this.label20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label20.Location = new System.Drawing.Point(19, 369);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(444, 72);
+            this.label20.Size = new System.Drawing.Size(482, 72);
             this.label20.TabIndex = 23;
-            this.label20.Text = "Recieve Special Offers Via Phone/Email?\r\n(You will not recieve special offers or " +
-    "\r\npromotion information unless you select so)";
+            this.label20.Text = "Recieve Special Offers Via Phone/Email or Post?\r\n(You will not recieve special of" +
+    "fers or \r\npromotion information unless you select so)";
             // 
             // label18
             // 
@@ -183,7 +183,7 @@
             this.txtPostCode.Location = new System.Drawing.Point(202, 118);
             this.txtPostCode.Name = "txtPostCode";
             this.txtPostCode.Size = new System.Drawing.Size(330, 39);
-            this.txtPostCode.TabIndex = 17;
+            this.txtPostCode.TabIndex = 2;
             // 
             // label9
             // 
@@ -262,7 +262,7 @@
             // 
             this.chkSpecialOffers.AutoSize = true;
             this.chkSpecialOffers.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkSpecialOffers.Location = new System.Drawing.Point(517, 375);
+            this.chkSpecialOffers.Location = new System.Drawing.Point(516, 375);
             this.chkSpecialOffers.Name = "chkSpecialOffers";
             this.chkSpecialOffers.Size = new System.Drawing.Size(15, 14);
             this.chkSpecialOffers.TabIndex = 25;
@@ -285,7 +285,7 @@
             this.cmbAddress.Location = new System.Drawing.Point(202, 184);
             this.cmbAddress.Name = "cmbAddress";
             this.cmbAddress.Size = new System.Drawing.Size(330, 39);
-            this.cmbAddress.TabIndex = 1;
+            this.cmbAddress.TabIndex = 3;
             this.cmbAddress.Enter += new System.EventHandler(this.cmbAddress_Enter);
             // 
             // label11
@@ -304,7 +304,7 @@
             this.txtFullname.Location = new System.Drawing.Point(202, 56);
             this.txtFullname.Name = "txtFullname";
             this.txtFullname.Size = new System.Drawing.Size(330, 39);
-            this.txtFullname.TabIndex = 2;
+            this.txtFullname.TabIndex = 1;
             this.txtFullname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFullname_KeyDown);
             // 
             // label12
