@@ -73,9 +73,29 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap background_image_blank {
+        internal static System.Drawing.Bitmap Background_Image {
             get {
-                object obj = ResourceManager.GetObject("background image blank", resourceCulture);
+                object obj = ResourceManager.GetObject("Background_Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backgroundImageBlank {
+            get {
+                object obj = ResourceManager.GetObject("backgroundImageBlank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonCancel {
+            get {
+                object obj = ResourceManager.GetObject("buttonCancel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +113,9 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Classroom_Chair {
+        internal static System.Drawing.Bitmap ConfirmSeatsButton2 {
             get {
-                object obj = ResourceManager.GetObject("Classroom_Chair", resourceCulture);
+                object obj = ResourceManager.GetObject("ConfirmSeatsButton2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +123,9 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ConfirmSeatsButton {
+        internal static System.Drawing.Bitmap crossIcon {
             get {
-                object obj = ResourceManager.GetObject("ConfirmSeatsButton", resourceCulture);
+                object obj = ResourceManager.GetObject("crossIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +143,29 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap helpButton3 {
+            get {
+                object obj = ResourceManager.GetObject("helpButton3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HomeButtonLeftOfCenter {
             get {
                 object obj = ResourceManager.GetObject("HomeButtonLeftOfCenter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap homePageButtons {
+            get {
+                object obj = ResourceManager.GetObject("homePageButtons", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +193,9 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap red_x_icon_th {
+        internal static System.Drawing.Bitmap ReturnButton {
             get {
-                object obj = ResourceManager.GetObject("red-x-icon-th", resourceCulture);
+                object obj = ResourceManager.GetObject("ReturnButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +203,9 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ReturnButton {
+        internal static System.Drawing.Bitmap SeatIcon {
             get {
-                object obj = ResourceManager.GetObject("ReturnButton", resourceCulture);
+                object obj = ResourceManager.GetObject("SeatIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +223,29 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap The_Room {
+        internal static System.Drawing.Bitmap TheRoom {
             get {
-                object obj = ResourceManager.GetObject("The Room", resourceCulture);
+                object obj = ResourceManager.GetObject("TheRoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Welcome {
+            get {
+                object obj = ResourceManager.GetObject("Welcome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WideButton2 {
+            get {
+                object obj = ResourceManager.GetObject("WideButton2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.Background_Image;
             this.ClientSize = new System.Drawing.Size(1260, 677);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnListings);

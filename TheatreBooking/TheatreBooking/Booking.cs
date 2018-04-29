@@ -153,7 +153,7 @@ namespace TheatreBooking
             }
             else if (cmbMovieBook.SelectedIndex == 3)
             {
-                pictureBox1.Image = Properties.Resources.The_Room;
+                pictureBox1.Image = Properties.Resources.TheRoom;
             }
             else if (cmbMovieBook.SelectedIndex == 4)
             {

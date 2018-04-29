@@ -281,7 +281,7 @@
             // btnCancelHelp
             // 
             this.btnCancelHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnCancelHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelHelp.BackgroundImage")));
+            this.btnCancelHelp.BackgroundImage = global::TheatreBooking.Properties.Resources.helpButton3;
             this.btnCancelHelp.FlatAppearance.BorderSize = 0;
             this.btnCancelHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelHelp.Location = new System.Drawing.Point(1150, 592);
@@ -483,7 +483,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.btnCancelHelp);
             this.Controls.Add(this.btnCancelReturn);

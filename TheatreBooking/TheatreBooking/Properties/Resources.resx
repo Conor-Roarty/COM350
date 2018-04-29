@@ -124,23 +124,17 @@
   <data name="Jumanji" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Jumanji.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TheRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shapeofwater" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shapeofwater.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Avengers" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avengers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Classroom_Chair" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Classroom_Chair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="red-x-icon-th" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red-x-icon-th.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ConfirmSeatsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ConfirmSeatsButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="The Room" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\The Room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SeatIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13_seat-movie-cinema-chair-theater-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="buttons" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buttons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,7 +148,31 @@
   <data name="PulpFiction" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PulpFiction.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="background image blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="backgroundImageBlank" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background image blank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crossIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConfirmSeatsButton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConfirmSeatsButton1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helpButton3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpButton3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homePageButtons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homePageButtons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Welcome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WideButton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WideButton2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

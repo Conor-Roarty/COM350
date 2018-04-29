@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfirmedBooking));
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -136,7 +135,7 @@
             // btnConfirmedHelp
             // 
             this.btnConfirmedHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnConfirmedHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmedHelp.BackgroundImage")));
+            this.btnConfirmedHelp.BackgroundImage = global::TheatreBooking.Properties.Resources.helpButton3;
             this.btnConfirmedHelp.FlatAppearance.BorderSize = 0;
             this.btnConfirmedHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnConfirmedHelp.Location = new System.Drawing.Point(1148, 593);
@@ -157,7 +156,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.btnConfirmedHelp);
             this.Controls.Add(this.btnConfirmedReturn);

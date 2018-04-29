@@ -361,7 +361,7 @@
             // btnBookingHelp
             // 
             this.btnBookingHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnBookingHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingHelp.BackgroundImage")));
+            this.btnBookingHelp.BackgroundImage = global::TheatreBooking.Properties.Resources.helpButton3;
             this.btnBookingHelp.FlatAppearance.BorderSize = 0;
             this.btnBookingHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBookingHelp.Location = new System.Drawing.Point(1150, 592);
@@ -395,7 +395,7 @@
             // 
             // btnScreenDets
             // 
-            this.btnScreenDets.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnScreenDets.BackgroundImage")));
+            this.btnScreenDets.BackgroundImage = global::TheatreBooking.Properties.Resources.buttons;
             this.btnScreenDets.Enabled = false;
             this.btnScreenDets.FlatAppearance.BorderSize = 0;
             this.btnScreenDets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -433,7 +433,7 @@
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.Transparent;
-            this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
+            this.btnClear.BackgroundImage = global::TheatreBooking.Properties.Resources.buttonCancel;
             this.btnClear.FlatAppearance.BorderSize = 0;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -449,7 +449,7 @@
             // btnProceed
             // 
             this.btnProceed.BackColor = System.Drawing.Color.Transparent;
-            this.btnProceed.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProceed.BackgroundImage")));
+            this.btnProceed.BackgroundImage = global::TheatreBooking.Properties.Resources.buttons;
             this.btnProceed.FlatAppearance.BorderSize = 0;
             this.btnProceed.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnProceed.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -532,7 +532,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.grpBoxConfirmation);
             this.Controls.Add(this.btnBookingHelp);

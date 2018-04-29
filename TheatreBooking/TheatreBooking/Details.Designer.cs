@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Details));
             this.txtInfo = new System.Windows.Forms.TextBox();
             this.grpInformation = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -94,7 +93,7 @@
             // 
             // btnDetailsHelp
             // 
-            this.btnDetailsHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDetailsHelp.BackgroundImage")));
+            this.btnDetailsHelp.BackgroundImage = global::TheatreBooking.Properties.Resources.helpButton3;
             this.btnDetailsHelp.FlatAppearance.BorderSize = 0;
             this.btnDetailsHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetailsHelp.Location = new System.Drawing.Point(1150, 592);
@@ -230,7 +229,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClear.BackgroundImage")));
+            this.btnClear.BackgroundImage = global::TheatreBooking.Properties.Resources.buttonCancel;
             this.btnClear.FlatAppearance.BorderSize = 0;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -245,7 +244,7 @@
             // 
             // btnPayment
             // 
-            this.btnPayment.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPayment.BackgroundImage")));
+            this.btnPayment.BackgroundImage = global::TheatreBooking.Properties.Resources.buttons;
             this.btnPayment.FlatAppearance.BorderSize = 0;
             this.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPayment.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -366,7 +365,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.grpInformation);
             this.Controls.Add(this.btnDetailsHelp);
