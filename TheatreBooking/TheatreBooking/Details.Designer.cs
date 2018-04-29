@@ -106,7 +106,8 @@
             // 
             // btnDetailsReturn
             // 
-            this.btnDetailsReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDetailsReturn.BackgroundImage")));
+            this.btnDetailsReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.HomeButtonLeftOfCenter;
+            this.btnDetailsReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnDetailsReturn.FlatAppearance.BorderSize = 0;
             this.btnDetailsReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetailsReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

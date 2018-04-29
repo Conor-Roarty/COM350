@@ -386,7 +386,8 @@
             // btnBookingReturn
             // 
             this.btnBookingReturn.BackColor = System.Drawing.Color.Transparent;
-            this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
+            this.btnBookingReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.HomeButtonLeftOfCenter;
+            this.btnBookingReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -635,6 +636,7 @@
             this.Controls.Add(this.grpPaymentType);
             this.Controls.Add(this.btnCardHelp);
             this.Controls.Add(this.btnBookingReturn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Payment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Payment";

@@ -102,7 +102,8 @@
             // btnBookingReturn
             // 
             this.btnBookingReturn.BackColor = System.Drawing.Color.Transparent;
-            this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
+            this.btnBookingReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.HomeButtonLeftOfCenter;
+            this.btnBookingReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -120,6 +121,7 @@
             // 
             this.cmbMovieBook.FormattingEnabled = true;
             this.cmbMovieBook.Items.AddRange(new object[] {
+            "Select A Movie",
             "Star Wars: The Force Awakens",
             "Pulp Fiction",
             "Jumanji",
@@ -188,6 +190,7 @@
             // 
             this.cmbBookingTime.FormattingEnabled = true;
             this.cmbBookingTime.Items.AddRange(new object[] {
+            "Select A Time",
             "11:00 am",
             "12:30 pm",
             "2:00 pm",
@@ -208,7 +211,6 @@
             this.dtpBookingDate.Name = "dtpBookingDate";
             this.dtpBookingDate.Size = new System.Drawing.Size(330, 39);
             this.dtpBookingDate.TabIndex = 9;
-            this.dtpBookingDate.ValueChanged += new System.EventHandler(this.dtpBookingDate_ValueChanged);
             // 
             // label1
             // 
@@ -392,6 +394,7 @@
             // btnScreenDets
             // 
             this.btnScreenDets.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnScreenDets.BackgroundImage")));
+            this.btnScreenDets.Enabled = false;
             this.btnScreenDets.FlatAppearance.BorderSize = 0;
             this.btnScreenDets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnScreenDets.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

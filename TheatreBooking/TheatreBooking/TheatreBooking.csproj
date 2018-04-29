@@ -81,6 +81,11 @@
     <Compile Include="Help.Designer.cs">
       <DependentUpon>Help.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Screen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,14 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Screen.resx">
       <DependentUpon>Screen.cs</DependentUpon>
     </EmbeddedResource>
@@ -207,6 +207,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\buttons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeButtonLeftOfCenter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReturnButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConfirmSeatsButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeLeft.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

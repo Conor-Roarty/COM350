@@ -62,7 +62,7 @@
             // btnBookingReturn
             // 
             this.btnBookingReturn.BackColor = System.Drawing.Color.Transparent;
-            this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
+            this.btnBookingReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.ReturnButton;
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

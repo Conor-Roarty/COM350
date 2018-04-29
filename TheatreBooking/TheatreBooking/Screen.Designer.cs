@@ -81,6 +81,7 @@
             this.label1.Size = new System.Drawing.Size(1052, 72);
             this.label1.TabIndex = 44;
             this.label1.Text = resources.GetString("label1.Text");
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -92,12 +93,15 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(694, 96);
             this.label2.TabIndex = 43;
-            this.label2.Text = resources.GetString("label2.Text");
+            this.label2.Text = "This Screen number: 12\r\n   \r\nThis Screen has a total of 40 seats available at any" +
+    "one time, including\r\nwheelchair accessable seats for those who requie such facil" +
+    "ities.";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnBookingReturn
             // 
             this.btnBookingReturn.BackColor = System.Drawing.Color.Transparent;
-            this.btnBookingReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBookingReturn.BackgroundImage")));
+            this.btnBookingReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.ReturnButton;
             this.btnBookingReturn.FlatAppearance.BorderSize = 0;
             this.btnBookingReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookingReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -123,6 +127,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblScreenInfo2);
             this.Controls.Add(this.lblScreenInfo1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Screen";

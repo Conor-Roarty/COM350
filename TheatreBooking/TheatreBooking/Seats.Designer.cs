@@ -1089,7 +1089,8 @@
             // 
             // btnCancelReturn
             // 
-            this.btnCancelReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelReturn.BackgroundImage")));
+            this.btnCancelReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.ConfirmSeatsButton;
+            this.btnCancelReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCancelReturn.FlatAppearance.BorderSize = 0;
             this.btnCancelReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

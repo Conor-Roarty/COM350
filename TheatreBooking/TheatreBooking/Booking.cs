@@ -24,6 +24,8 @@ namespace TheatreBooking
             dtpBookingDate.MaxDate = DateTime.Today.AddMonths(2);
             cmbBookingTime.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbMovieBook.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbBookingTime.SelectedIndex = 0;
+            cmbMovieBook.SelectedIndex = 0;
         }
 
         private void Booking_Load(object sender, EventArgs e)
@@ -40,7 +42,7 @@ namespace TheatreBooking
             Screen s = new Screen();
             s.Show();
         }
-        
+
         //Button to return to homepage
         private void btnBookingReturn_Click(object sender, EventArgs e)
         {
@@ -70,7 +72,7 @@ namespace TheatreBooking
             else
                 epNoOfTickets.Clear();
 
-            if (cmbBookingTime.SelectedIndex == -1)
+            if (cmbBookingTime.SelectedIndex == -1 || cmbBookingTime.SelectedIndex == 0)
             {
                 epTime.SetError(cmbBookingTime, "This Is A Required Field");
                 valid = false;
@@ -78,14 +80,12 @@ namespace TheatreBooking
             else
                 epTime.Clear();
 
-            if (cmbMovieBook.SelectedIndex == -1)
+            if (cmbMovieBook.SelectedIndex == -1 || cmbMovieBook.SelectedIndex == 0)
             {
                 epMovie.SetError(cmbMovieBook, "This Is A Required Field");
                 valid = false;
             }
-            else
-                epMovie.Clear();
-
+            epMovie.Clear();
 
             if (valid)
             {
@@ -100,8 +100,8 @@ namespace TheatreBooking
         {
             txtNoOfTicketsBooking.Clear();
             txtOtherReqs.Clear();
-            cmbBookingTime.Items.Clear();
-            cmbMovieBook.Items.Clear();
+            cmbBookingTime.SelectedIndex = 0;
+            cmbMovieBook.SelectedIndex = 0;
             radBtnNoWheelchair.Checked = true;
             radBtnYesWheelchair.Checked = false;
         }
@@ -119,65 +119,50 @@ namespace TheatreBooking
         private void cmbMovieBook_SelectedIndexChanged(object sender, EventArgs e)
         {
             label23.Text = cmbMovieBook.SelectedItem.ToString();
-            if (cmbMovieBook.SelectedIndex == 0)
+
+            if (cmbMovieBook.SelectedIndex != 0 && cmbBookingTime.SelectedIndex != 0)
             {
-                pictureBox1.Image = Properties.Resources.ForceAwakens;
+                btnScreenDets.Enabled = true;
+                lblNumber.Text = "12";
             }
             else if (cmbMovieBook.SelectedIndex == 1)
             {
-                pictureBox1.Image = Properties.Resources.PulpFiction;
+                pictureBox1.Image = Properties.Resources.ForceAwakens;
             }
             else if (cmbMovieBook.SelectedIndex == 2)
             {
-                pictureBox1.Image = Properties.Resources.Jumanji;
+                pictureBox1.Image = Properties.Resources.PulpFiction;
             }
             else if (cmbMovieBook.SelectedIndex == 3)
             {
-                pictureBox1.Image = Properties.Resources.The_Room;
+                pictureBox1.Image = Properties.Resources.Jumanji;
             }
             else if (cmbMovieBook.SelectedIndex == 4)
             {
-                pictureBox1.Image = Properties.Resources.Avengers;
+                pictureBox1.Image = Properties.Resources.The_Room;
             }
             else if (cmbMovieBook.SelectedIndex == 5)
+            {
+                pictureBox1.Image = Properties.Resources.Avengers;
+            }
+            else if (cmbMovieBook.SelectedIndex == 6)
             {
                 pictureBox1.Image = Properties.Resources.shapeofwater;
             }
         }
 
         private void cmbBookingTime_SelectedIndexChanged(object sender, EventArgs e)
-        {//usually search db for actual screen but here just set to random number
-            if (dtpBookingDate.Value != null)
+        {
+            if (cmbMovieBook.SelectedIndex != 0 && cmbBookingTime.SelectedIndex != 0)
             {
                 btnScreenDets.Enabled = true;
-                lblNumber.Text = "69";
-            }
-            else
-            {
-                btnScreenDets.Enabled = false;
-                lblNumber.Text = "N/A";
+                lblNumber.Text = "12";
             }
         }
+
         #endregion
 
-        #region OtherControls
-
-
-        private void dtpBookingDate_ValueChanged(object sender, EventArgs e)
-        {//usually search db for actual screen and IF FOUND set to that value but here just set to random number
-            if (cmbBookingTime.SelectedIndex != -1)
-            {
-                btnScreenDets.Enabled = true;
-                lblNumber.Text = "69";
-            }
-            else
-            {
-                btnScreenDets.Enabled = false;
-                lblNumber.Text = "N/A";
-            }
-        }
-
-
+        #region otherControls
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
@@ -199,9 +184,9 @@ namespace TheatreBooking
 
         private void btnBookingHelp_Click_1(object sender, EventArgs e)
         {
-                Help h = new Help();
-                h.Show();
+            Help h = new Help();
+            h.Show();
         }
+        #endregion
     }
 }
-#endregion

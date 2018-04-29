@@ -103,9 +103,29 @@ namespace TheatreBooking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ConfirmSeatsButton {
+            get {
+                object obj = ResourceManager.GetObject("ConfirmSeatsButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ForceAwakens {
             get {
                 object obj = ResourceManager.GetObject("ForceAwakens", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HomeButtonLeftOfCenter {
+            get {
+                object obj = ResourceManager.GetObject("HomeButtonLeftOfCenter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +156,16 @@ namespace TheatreBooking.Properties {
         internal static System.Drawing.Bitmap red_x_icon_th {
             get {
                 object obj = ResourceManager.GetObject("red-x-icon-th", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ReturnButton {
+            get {
+                object obj = ResourceManager.GetObject("ReturnButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

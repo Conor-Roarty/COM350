@@ -118,7 +118,8 @@
             // btnConfirmedReturn
             // 
             this.btnConfirmedReturn.BackColor = System.Drawing.Color.Transparent;
-            this.btnConfirmedReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmedReturn.BackgroundImage")));
+            this.btnConfirmedReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.HomeButtonLeftOfCenter;
+            this.btnConfirmedReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnConfirmedReturn.FlatAppearance.BorderSize = 0;
             this.btnConfirmedReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnConfirmedReturn.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
