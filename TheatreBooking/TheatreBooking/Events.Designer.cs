@@ -93,7 +93,7 @@
             // btnEventsHelp
             // 
             this.btnEventsHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnEventsHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEventsHelp.BackgroundImage")));
+            this.btnEventsHelp.BackgroundImage = global::TheatreBooking.Properties.Resources.helpButton3;
             this.btnEventsHelp.FlatAppearance.BorderSize = 0;
             this.btnEventsHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEventsHelp.Location = new System.Drawing.Point(1150, 592);
@@ -105,6 +105,7 @@
             // 
             // btnMondayOffer
             // 
+            this.btnMondayOffer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMondayOffer.BackgroundImage")));
             this.btnMondayOffer.FlatAppearance.BorderSize = 0;
             this.btnMondayOffer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMondayOffer.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -120,6 +121,7 @@
             // 
             // btnSundayOffer
             // 
+            this.btnSundayOffer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSundayOffer.BackgroundImage")));
             this.btnSundayOffer.FlatAppearance.BorderSize = 0;
             this.btnSundayOffer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSundayOffer.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -135,6 +137,7 @@
             // 
             // btnSaturdayOffer
             // 
+            this.btnSaturdayOffer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSaturdayOffer.BackgroundImage")));
             this.btnSaturdayOffer.FlatAppearance.BorderSize = 0;
             this.btnSaturdayOffer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSaturdayOffer.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -150,6 +153,7 @@
             // 
             // btnFridayOffer
             // 
+            this.btnFridayOffer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFridayOffer.BackgroundImage")));
             this.btnFridayOffer.FlatAppearance.BorderSize = 0;
             this.btnFridayOffer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnFridayOffer.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -165,6 +169,7 @@
             // 
             // btnThursdayOffer
             // 
+            this.btnThursdayOffer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThursdayOffer.BackgroundImage")));
             this.btnThursdayOffer.FlatAppearance.BorderSize = 0;
             this.btnThursdayOffer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThursdayOffer.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -180,6 +185,7 @@
             // 
             // btnWednesdayOffer
             // 
+            this.btnWednesdayOffer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWednesdayOffer.BackgroundImage")));
             this.btnWednesdayOffer.FlatAppearance.BorderSize = 0;
             this.btnWednesdayOffer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnWednesdayOffer.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -195,6 +201,7 @@
             // 
             // btnTuesdayOffer
             // 
+            this.btnTuesdayOffer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTuesdayOffer.BackgroundImage")));
             this.btnTuesdayOffer.FlatAppearance.BorderSize = 0;
             this.btnTuesdayOffer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTuesdayOffer.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -232,6 +239,7 @@
             // 
             // btnEvent2
             // 
+            this.btnEvent2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEvent2.BackgroundImage")));
             this.btnEvent2.FlatAppearance.BorderSize = 0;
             this.btnEvent2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEvent2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -247,6 +255,7 @@
             // 
             // btnEvent1
             // 
+            this.btnEvent1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEvent1.BackgroundImage")));
             this.btnEvent1.FlatAppearance.BorderSize = 0;
             this.btnEvent1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEvent1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -286,6 +295,7 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.Enabled = false;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -305,7 +315,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblEvents);

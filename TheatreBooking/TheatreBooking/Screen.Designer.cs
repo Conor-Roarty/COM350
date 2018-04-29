@@ -119,7 +119,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.BackgroundImage = global::TheatreBooking.Properties.Resources.background_image_blank;
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.btnBookingReturn);
             this.Controls.Add(this.pictureBox1);

@@ -220,5 +220,35 @@
   <ItemGroup>
     <None Include="Resources\HomeLeft.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_delete_remove_stop_x_no_close_cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13_seat-movie-cinema-chair-theater-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConfirmSeatsButton1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonCancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpButton3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WideButton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePageButtons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

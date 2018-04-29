@@ -373,7 +373,7 @@
             // 
             // btnCardHelp
             // 
-            this.btnCardHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCardHelp.BackgroundImage")));
+            this.btnCardHelp.BackgroundImage = global::TheatreBooking.Properties.Resources.helpButton3;
             this.btnCardHelp.FlatAppearance.BorderSize = 0;
             this.btnCardHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCardHelp.Location = new System.Drawing.Point(1150, 592);
@@ -421,7 +421,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Firebrick;
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImage = global::TheatreBooking.Properties.Resources.buttonCancel;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -513,7 +513,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Firebrick;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackgroundImage = global::TheatreBooking.Properties.Resources.buttonCancel;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -528,7 +528,7 @@
             // 
             // button1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImage = global::TheatreBooking.Properties.Resources.buttons;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -609,7 +609,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Firebrick;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImage = global::TheatreBooking.Properties.Resources.buttonCancel;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -627,11 +627,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.gbArrival);
-            this.Controls.Add(this.grpCashPayment);
             this.Controls.Add(this.gbCardReader);
+            this.Controls.Add(this.grpCashPayment);
+            this.Controls.Add(this.gbArrival);
             this.Controls.Add(this.grpCardDetails);
             this.Controls.Add(this.grpPaymentType);
             this.Controls.Add(this.btnCardHelp);

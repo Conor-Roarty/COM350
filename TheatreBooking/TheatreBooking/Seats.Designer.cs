@@ -197,10 +197,10 @@
             // pictureBox12
             // 
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox12.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox12.Image = global::TheatreBooking.Properties.Resources.crossIcon;
             this.pictureBox12.Location = new System.Drawing.Point(6, 96);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(58, 53);
+            this.pictureBox12.Size = new System.Drawing.Size(58, 56);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 107;
             this.pictureBox12.TabStop = false;
@@ -208,10 +208,10 @@
             // pictureBox11
             // 
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox11.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox11.Image = global::TheatreBooking.Properties.Resources.SeatIcon;
             this.pictureBox11.Location = new System.Drawing.Point(6, 31);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(58, 48);
+            this.pictureBox11.Size = new System.Drawing.Size(58, 59);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 106;
             this.pictureBox11.TabStop = false;
@@ -412,7 +412,7 @@
             // btnWrongDetails
             // 
             this.btnWrongDetails.BackColor = System.Drawing.Color.Firebrick;
-            this.btnWrongDetails.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWrongDetails.BackgroundImage")));
+            this.btnWrongDetails.BackgroundImage = global::TheatreBooking.Properties.Resources.buttonCancel;
             this.btnWrongDetails.FlatAppearance.BorderSize = 0;
             this.btnWrongDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWrongDetails.Font = new System.Drawing.Font("Eras Demi ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -429,7 +429,7 @@
             // 
             this.pictureBox46.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox46.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox46.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox46.Image")));
             this.pictureBox46.Location = new System.Drawing.Point(980, 481);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(84, 79);
@@ -442,7 +442,7 @@
             // 
             this.pictureBox47.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox47.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
             this.pictureBox47.Location = new System.Drawing.Point(881, 481);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(84, 79);
@@ -455,7 +455,7 @@
             // 
             this.pictureBox48.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox48.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox48.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox48.Image")));
             this.pictureBox48.Location = new System.Drawing.Point(781, 481);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(84, 79);
@@ -468,7 +468,7 @@
             // 
             this.pictureBox49.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox49.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox49.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox49.Image")));
             this.pictureBox49.Location = new System.Drawing.Point(681, 481);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(84, 79);
@@ -481,7 +481,7 @@
             // 
             this.pictureBox50.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox50.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox50.Image")));
             this.pictureBox50.Location = new System.Drawing.Point(582, 481);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(84, 79);
@@ -494,7 +494,7 @@
             // 
             this.pictureBox51.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox51.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox51.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox51.Image")));
             this.pictureBox51.Location = new System.Drawing.Point(482, 481);
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.Size = new System.Drawing.Size(84, 79);
@@ -507,7 +507,7 @@
             // 
             this.pictureBox52.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox52.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox52.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox52.Image")));
             this.pictureBox52.Location = new System.Drawing.Point(280, 481);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(84, 79);
@@ -520,7 +520,7 @@
             // 
             this.pictureBox53.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox53.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox53.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox53.Image")));
             this.pictureBox53.Location = new System.Drawing.Point(382, 481);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(84, 79);
@@ -533,7 +533,7 @@
             // 
             this.pictureBox54.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox54.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox54.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox54.Image")));
             this.pictureBox54.Location = new System.Drawing.Point(180, 481);
             this.pictureBox54.Name = "pictureBox54";
             this.pictureBox54.Size = new System.Drawing.Size(84, 79);
@@ -546,7 +546,7 @@
             // 
             this.pictureBox55.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox55.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox55.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox55.Image")));
             this.pictureBox55.Location = new System.Drawing.Point(80, 481);
             this.pictureBox55.Name = "pictureBox55";
             this.pictureBox55.Size = new System.Drawing.Size(84, 79);
@@ -559,7 +559,7 @@
             // 
             this.pictureBox35.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox35.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
             this.pictureBox35.Location = new System.Drawing.Point(980, 386);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(84, 79);
@@ -572,7 +572,7 @@
             // 
             this.pictureBox36.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox36.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox36.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox36.Image")));
             this.pictureBox36.Location = new System.Drawing.Point(881, 386);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(84, 79);
@@ -585,7 +585,7 @@
             // 
             this.pictureBox37.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox37.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
             this.pictureBox37.Location = new System.Drawing.Point(781, 386);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(84, 79);
@@ -598,7 +598,7 @@
             // 
             this.pictureBox38.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox38.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox38.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox38.Image")));
             this.pictureBox38.Location = new System.Drawing.Point(681, 386);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(84, 79);
@@ -611,7 +611,7 @@
             // 
             this.pictureBox39.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox39.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
             this.pictureBox39.Location = new System.Drawing.Point(582, 386);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(84, 79);
@@ -624,7 +624,7 @@
             // 
             this.pictureBox40.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox40.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
             this.pictureBox40.Location = new System.Drawing.Point(482, 386);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(84, 79);
@@ -637,7 +637,7 @@
             // 
             this.pictureBox41.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox41.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox41.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox41.Image")));
             this.pictureBox41.Location = new System.Drawing.Point(280, 386);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(84, 79);
@@ -650,7 +650,7 @@
             // 
             this.pictureBox42.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox42.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
             this.pictureBox42.Location = new System.Drawing.Point(382, 386);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(84, 79);
@@ -663,7 +663,7 @@
             // 
             this.pictureBox43.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox43.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox43.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox43.Image")));
             this.pictureBox43.Location = new System.Drawing.Point(180, 386);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(84, 79);
@@ -676,7 +676,7 @@
             // 
             this.pictureBox44.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox44.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox44.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox44.Image")));
             this.pictureBox44.Location = new System.Drawing.Point(80, 386);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(84, 79);
@@ -689,7 +689,7 @@
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox24.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
             this.pictureBox24.Location = new System.Drawing.Point(980, 291);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(84, 79);
@@ -702,7 +702,7 @@
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox25.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
             this.pictureBox25.Location = new System.Drawing.Point(881, 291);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(84, 79);
@@ -715,7 +715,7 @@
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox26.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
             this.pictureBox26.Location = new System.Drawing.Point(781, 291);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(84, 79);
@@ -728,7 +728,7 @@
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox27.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
             this.pictureBox27.Location = new System.Drawing.Point(681, 291);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(84, 79);
@@ -741,7 +741,7 @@
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox28.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
             this.pictureBox28.Location = new System.Drawing.Point(582, 291);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(84, 79);
@@ -754,7 +754,7 @@
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox29.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
             this.pictureBox29.Location = new System.Drawing.Point(482, 291);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(84, 79);
@@ -767,7 +767,7 @@
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox30.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
             this.pictureBox30.Location = new System.Drawing.Point(280, 291);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(84, 79);
@@ -780,7 +780,7 @@
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox31.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
             this.pictureBox31.Location = new System.Drawing.Point(382, 291);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(84, 79);
@@ -793,7 +793,7 @@
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox32.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
             this.pictureBox32.Location = new System.Drawing.Point(180, 291);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(84, 79);
@@ -806,7 +806,7 @@
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox33.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
             this.pictureBox33.Location = new System.Drawing.Point(80, 291);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(84, 79);
@@ -819,7 +819,7 @@
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
             this.pictureBox13.Location = new System.Drawing.Point(980, 196);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(84, 79);
@@ -832,7 +832,7 @@
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox14.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.Location = new System.Drawing.Point(881, 196);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(84, 79);
@@ -845,7 +845,7 @@
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox15.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(781, 196);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(84, 79);
@@ -858,7 +858,7 @@
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox16.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
             this.pictureBox16.Location = new System.Drawing.Point(681, 196);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(84, 79);
@@ -871,7 +871,7 @@
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox17.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
             this.pictureBox17.Location = new System.Drawing.Point(582, 196);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(84, 79);
@@ -884,7 +884,7 @@
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox18.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(482, 196);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(84, 79);
@@ -897,7 +897,7 @@
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox19.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
             this.pictureBox19.Location = new System.Drawing.Point(280, 196);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(84, 79);
@@ -910,7 +910,7 @@
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox20.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
             this.pictureBox20.Location = new System.Drawing.Point(382, 196);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(84, 79);
@@ -923,7 +923,7 @@
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox21.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(180, 196);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(84, 79);
@@ -936,7 +936,7 @@
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox22.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
             this.pictureBox22.Location = new System.Drawing.Point(80, 196);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(84, 79);
@@ -949,7 +949,7 @@
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox10.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(980, 100);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(84, 79);
@@ -962,7 +962,7 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox9.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(881, 100);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(84, 79);
@@ -975,7 +975,7 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox8.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(781, 100);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(84, 79);
@@ -988,7 +988,7 @@
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox7.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(681, 100);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(84, 79);
@@ -1001,7 +1001,7 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox6.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(582, 100);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(84, 79);
@@ -1014,7 +1014,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(482, 100);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(84, 79);
@@ -1027,7 +1027,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(280, 100);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(84, 79);
@@ -1040,7 +1040,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Image = global::TheatreBooking.Properties.Resources.red_x_icon_th;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(382, 100);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(84, 79);
@@ -1053,7 +1053,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(180, 100);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(84, 79);
@@ -1066,7 +1066,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::TheatreBooking.Properties.Resources.Classroom_Chair;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(80, 100);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(84, 79);
@@ -1077,7 +1077,7 @@
             // 
             // btnCancelHelp
             // 
-            this.btnCancelHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelHelp.BackgroundImage")));
+            this.btnCancelHelp.BackgroundImage = global::TheatreBooking.Properties.Resources.helpButton3;
             this.btnCancelHelp.FlatAppearance.BorderSize = 0;
             this.btnCancelHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelHelp.Location = new System.Drawing.Point(1151, 591);
@@ -1089,7 +1089,7 @@
             // 
             // btnCancelReturn
             // 
-            this.btnCancelReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.ConfirmSeatsButton;
+            this.btnCancelReturn.BackgroundImage = global::TheatreBooking.Properties.Resources.ConfirmSeatsButton2;
             this.btnCancelReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCancelReturn.FlatAppearance.BorderSize = 0;
             this.btnCancelReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1107,7 +1107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TheatreBooking.Properties.Resources.background_image_blank;
+            this.BackgroundImage = global::TheatreBooking.Properties.Resources.backgroundImageBlank;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.btnWrongDetails);
             this.Controls.Add(this.gbEnterBookingDets);
